@@ -1,0 +1,10 @@
+C:\Users\Dell\Desktop\Dangnhap\testPM\bin\Debug\testPM.dll
+C:\Users\Dell\Desktop\Dangnhap\testPM\bin\Debug\testPM.pdb
+C:\Users\Dell\Desktop\Dangnhap\testPM\obj\Debug\testPM.dll
+C:\Users\Dell\Desktop\Dangnhap\testPM\obj\Debug\testPM.pdb
+C:\Users\Dell\Desktop\Dangnhap\testPM\obj\Debug\testPM.csprojResolveAssemblyReference.cache
+C:\Users\Dell\Desktop\Dangnhap\testPM\bin\Debug\Dangnhap.exe
+C:\Users\Dell\Desktop\Dangnhap\testPM\bin\Debug\Dangnhap.pdb
+C:\Users\Dell\Desktop\Dangnhap\testPM\bin\Debug\testLogin.csv
+C:\Users\Dell\Desktop\Dangnhap\testPM\bin\Debug\Test_Login.cs
+C:\Users\Dell\Desktop\Dangnhap\testPM\bin\Debug\testThanhToan.csv

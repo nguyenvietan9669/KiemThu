@@ -1,0 +1,16 @@
+﻿userName,passWord,expected
+admin,123,true
+nva,123,true
+admin, ,false
+nva, ,false
+tensai,123,false
+admin,1234,false
+nva,1234,false
+***,123,false
+***,&^%,false
+admin,&*^,false
+nva,&*^,false
+ ,123,false
+ , ,false
+tensai,1234,false
+ahsgdkjasdkjjasldqwiekdashdklhasduhqwioudoajdlajsdklhasudijqhweqhwejaopsjjdoqowjdkajsdjhasjhdiqidqwijqwgtqw9w8dhcakjsdoiasudqwuwhdjasoiduiq9whdajshd9q9wuedajsdahsdo,123,false

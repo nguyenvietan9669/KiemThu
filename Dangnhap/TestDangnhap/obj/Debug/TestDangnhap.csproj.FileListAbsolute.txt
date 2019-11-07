@@ -1,0 +1,9 @@
+C:\Users\Dell\Desktop\Dangnhap\TestDangnhap\bin\Debug\TestDangnhap.dll
+C:\Users\Dell\Desktop\Dangnhap\TestDangnhap\bin\Debug\TestDangnhap.pdb
+C:\Users\Dell\Desktop\Dangnhap\TestDangnhap\bin\Debug\Dangnhap.exe
+C:\Users\Dell\Desktop\Dangnhap\TestDangnhap\bin\Debug\Dangnhap.pdb
+C:\Users\Dell\Desktop\Dangnhap\TestDangnhap\obj\Debug\TestDangnhap.csprojResolveAssemblyReference.cache
+C:\Users\Dell\Desktop\Dangnhap\TestDangnhap\obj\Debug\TestDangnhap.dll
+C:\Users\Dell\Desktop\Dangnhap\TestDangnhap\obj\Debug\TestDangnhap.pdb
+C:\Users\Dell\Desktop\Dangnhap\TestDangnhap\bin\Debug\Dangnhap_Accessor.exe
+C:\Users\Dell\Desktop\Dangnhap\TestDangnhap\bin\Debug\Dangnhap_Accessor.pdb

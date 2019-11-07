@@ -1,0 +1,6 @@
+﻿idbill,discount,final,excepted
+1,10,100000,true
+1,0,100000,true
+-1,10,100000,false
+1,-10,100000,true
+1,0,0,false

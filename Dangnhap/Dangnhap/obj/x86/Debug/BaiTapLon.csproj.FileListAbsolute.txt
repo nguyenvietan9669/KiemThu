@@ -1,0 +1,23 @@
+c:\users\dell\documents\visual studio 2010\Projects\Dangnhap\Dangnhap\bin\Debug\Dangnhap.exe
+c:\users\dell\documents\visual studio 2010\Projects\Dangnhap\Dangnhap\bin\Debug\Dangnhap.pdb
+c:\users\dell\documents\visual studio 2010\Projects\Dangnhap\Dangnhap\obj\x86\Debug\Dangnhap.Properties.Resources.resources
+c:\users\dell\documents\visual studio 2010\Projects\Dangnhap\Dangnhap\obj\x86\Debug\BaiTapLon.csproj.GenerateResource.Cache
+c:\users\dell\documents\visual studio 2010\Projects\Dangnhap\Dangnhap\obj\x86\Debug\Dangnhap.exe
+c:\users\dell\documents\visual studio 2010\Projects\Dangnhap\Dangnhap\obj\x86\Debug\Dangnhap.pdb
+c:\users\dell\documents\visual studio 2010\Projects\Dangnhap\Dangnhap\obj\x86\Debug\Dangnhap.FDangNhap.resources
+c:\users\dell\documents\visual studio 2010\Projects\Dangnhap\Dangnhap\obj\x86\Debug\Dangnhap.QuanLy.resources
+c:\users\dell\documents\visual studio 2010\Projects\Dangnhap\Dangnhap\obj\x86\Debug\Dangnhap.DoiMatKhau.resources
+c:\users\dell\documents\visual studio 2010\Projects\Dangnhap\Dangnhap\obj\x86\Debug\Dangnhap.ThongTinCaNhan.resources
+c:\users\dell\documents\visual studio 2010\Projects\Dangnhap\Dangnhap\obj\x86\Debug\Dangnhap.Admin.resources
+C:\Users\Dell\Documents\Visual Studio 2010\Projects\Dangnhap\Dangnhap\obj\x86\Debug\BaiTapLon.csprojResolveAssemblyReference.cache
+C:\Users\Dell\Desktop\Dangnhap\Dangnhap\obj\x86\Debug\Dangnhap.exe
+C:\Users\Dell\Desktop\Dangnhap\Dangnhap\obj\x86\Debug\Dangnhap.pdb
+C:\Users\Dell\Desktop\Dangnhap\Dangnhap\bin\Debug\Dangnhap.exe
+C:\Users\Dell\Desktop\Dangnhap\Dangnhap\bin\Debug\Dangnhap.pdb
+C:\Users\Dell\Desktop\Dangnhap\Dangnhap\obj\x86\Debug\BaiTapLon.csprojResolveAssemblyReference.cache
+C:\Users\Dell\Desktop\Dangnhap\Dangnhap\obj\x86\Debug\Dangnhap.Admin.resources
+C:\Users\Dell\Desktop\Dangnhap\Dangnhap\obj\x86\Debug\Dangnhap.FDangNhap.resources
+C:\Users\Dell\Desktop\Dangnhap\Dangnhap\obj\x86\Debug\Dangnhap.Properties.Resources.resources
+C:\Users\Dell\Desktop\Dangnhap\Dangnhap\obj\x86\Debug\Dangnhap.QuanLy.resources
+C:\Users\Dell\Desktop\Dangnhap\Dangnhap\obj\x86\Debug\Dangnhap.ThongTinCaNhan.resources
+C:\Users\Dell\Desktop\Dangnhap\Dangnhap\obj\x86\Debug\BaiTapLon.csproj.GenerateResource.Cache

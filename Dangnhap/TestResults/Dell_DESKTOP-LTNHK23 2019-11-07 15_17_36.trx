@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="78dbf4d3-09f5-4364-9886-e257b1148844" name="Dell@DESKTOP-LTNHK23 2019-11-07 15:17:36" runUser="DESKTOP-LTNHK23\Dell" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="cea33156-e72c-4d1b-a57b-eb1a5b3c21c1">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Dell_DESKTOP-LTNHK23 2019-11-07 15_17_36">
+      <DeploymentItem filename="C:\Users\Dell\Desktop\Dangnhap\Dangnhap\bin\Debug\Dangnhap.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2019-11-07T15:17:36.5492720+07:00" queuing="2019-11-07T15:17:36.5883309+07:00" start="2019-11-07T15:17:36.5933298+07:00" finish="2019-11-07T15:17:36.9472171+07:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="6" executed="6" passed="4" error="0" failed="2" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestGiamGia3" storage="c:\users\dell\desktop\dangnhap\testpm\bin\debug\testpm.dll" id="76ba9da8-47f4-b565-53a9-c2025802aa85">
+      <Execution id="7a007644-d01f-41e6-a03c-683cb2db5457" />
+      <TestMethod codeBase="C:/Users/Dell/Desktop/Dangnhap/testPM/bin/Debug/testPM.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="testPM.UnitTest2, testPM, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestGiamGia3" />
+    </UnitTest>
+    <UnitTest name="TestGiamGia2" storage="c:\users\dell\desktop\dangnhap\testpm\bin\debug\testpm.dll" id="586e9f42-4eac-dee6-db51-6b6d2efda256">
+      <Execution id="ae5aebf7-3014-44ff-8624-ac2446f0b541" />
+      <TestMethod codeBase="C:/Users/Dell/Desktop/Dangnhap/testPM/bin/Debug/testPM.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="testPM.UnitTest2, testPM, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestGiamGia2" />
+    </UnitTest>
+    <UnitTest name="TestGiamGia1" storage="c:\users\dell\desktop\dangnhap\testpm\bin\debug\testpm.dll" id="dc9f9781-8a77-aaa7-8d50-1dc07017c59c">
+      <Execution id="83459465-b3be-47e4-8808-8370190c91dc" />
+      <TestMethod codeBase="C:/Users/Dell/Desktop/Dangnhap/testPM/bin/Debug/testPM.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="testPM.UnitTest2, testPM, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestGiamGia1" />
+    </UnitTest>
+    <UnitTest name="TestGiamGia5" storage="c:\users\dell\desktop\dangnhap\testpm\bin\debug\testpm.dll" id="c6acdd36-c24a-7829-fd4c-686d2467704b">
+      <Execution id="c2ebf32f-e793-48df-bd1e-74c2811e759b" />
+      <TestMethod codeBase="C:/Users/Dell/Desktop/Dangnhap/testPM/bin/Debug/testPM.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="testPM.UnitTest2, testPM, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestGiamGia5" />
+    </UnitTest>
+    <UnitTest name="TestGiamGia" storage="c:\users\dell\desktop\dangnhap\testpm\bin\debug\testpm.dll" id="530031c3-dc2a-ad5b-6bb3-a08b64398143">
+      <Execution id="bdb221b0-3345-486c-83e0-8494ba48673c" />
+      <TestMethod codeBase="C:/Users/Dell/Desktop/Dangnhap/testPM/bin/Debug/testPM.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="testPM.UnitTest2, testPM, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestGiamGia" />
+    </UnitTest>
+    <UnitTest name="TestGiamGia4" storage="c:\users\dell\desktop\dangnhap\testpm\bin\debug\testpm.dll" id="d9fe0ce6-6b5f-90a0-c30f-15409227ea61">
+      <Execution id="6c6c7942-9c05-4c95-b7b7-36797f12efbc" />
+      <TestMethod codeBase="C:/Users/Dell/Desktop/Dangnhap/testPM/bin/Debug/testPM.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="testPM.UnitTest2, testPM, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestGiamGia4" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="530031c3-dc2a-ad5b-6bb3-a08b64398143" executionId="bdb221b0-3345-486c-83e0-8494ba48673c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="586e9f42-4eac-dee6-db51-6b6d2efda256" executionId="ae5aebf7-3014-44ff-8624-ac2446f0b541" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="76ba9da8-47f4-b565-53a9-c2025802aa85" executionId="7a007644-d01f-41e6-a03c-683cb2db5457" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c6acdd36-c24a-7829-fd4c-686d2467704b" executionId="c2ebf32f-e793-48df-bd1e-74c2811e759b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d9fe0ce6-6b5f-90a0-c30f-15409227ea61" executionId="6c6c7942-9c05-4c95-b7b7-36797f12efbc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dc9f9781-8a77-aaa7-8d50-1dc07017c59c" executionId="83459465-b3be-47e4-8808-8370190c91dc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="bdb221b0-3345-486c-83e0-8494ba48673c" testId="530031c3-dc2a-ad5b-6bb3-a08b64398143" testName="TestGiamGia" computerName="DESKTOP-LTNHK23" duration="00:00:00.0345533" startTime="2019-11-07T15:17:36.6003296+07:00" endTime="2019-11-07T15:17:36.8642594+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bdb221b0-3345-486c-83e0-8494ba48673c">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method testPM.UnitTest2.TestGiamGia threw exception: 
+System.InvalidOperationException: sai định dạng</Message>
+          <StackTrace>    at testPM.UnitTest2.TestGiamGia() in C:\Users\Dell\Desktop\Dangnhap\testPM\UnitTest2.cs:line 24
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ae5aebf7-3014-44ff-8624-ac2446f0b541" testId="586e9f42-4eac-dee6-db51-6b6d2efda256" testName="TestGiamGia2" computerName="DESKTOP-LTNHK23" duration="00:00:00.0022956" startTime="2019-11-07T15:17:36.8702431+07:00" endTime="2019-11-07T15:17:36.8782389+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ae5aebf7-3014-44ff-8624-ac2446f0b541">
+    </UnitTestResult>
+    <UnitTestResult executionId="7a007644-d01f-41e6-a03c-683cb2db5457" testId="76ba9da8-47f4-b565-53a9-c2025802aa85" testName="TestGiamGia3" computerName="DESKTOP-LTNHK23" duration="00:00:00.0018880" startTime="2019-11-07T15:17:36.8842361+07:00" endTime="2019-11-07T15:17:36.8902343+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7a007644-d01f-41e6-a03c-683cb2db5457">
+    </UnitTestResult>
+    <UnitTestResult executionId="c2ebf32f-e793-48df-bd1e-74c2811e759b" testId="c6acdd36-c24a-7829-fd4c-686d2467704b" testName="TestGiamGia5" computerName="DESKTOP-LTNHK23" duration="00:00:00.0009937" startTime="2019-11-07T15:17:36.8972353+07:00" endTime="2019-11-07T15:17:36.9022482+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c2ebf32f-e793-48df-bd1e-74c2811e759b">
+    </UnitTestResult>
+    <UnitTestResult executionId="6c6c7942-9c05-4c95-b7b7-36797f12efbc" testId="d9fe0ce6-6b5f-90a0-c30f-15409227ea61" testName="TestGiamGia4" computerName="DESKTOP-LTNHK23" duration="00:00:00.0009690" startTime="2019-11-07T15:17:36.9082317+07:00" endTime="2019-11-07T15:17:36.9132432+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6c6c7942-9c05-4c95-b7b7-36797f12efbc">
+    </UnitTestResult>
+    <UnitTestResult executionId="83459465-b3be-47e4-8808-8370190c91dc" testId="dc9f9781-8a77-aaa7-8d50-1dc07017c59c" testName="TestGiamGia1" computerName="DESKTOP-LTNHK23" duration="00:00:00.0022954" startTime="2019-11-07T15:17:36.9192308+07:00" endTime="2019-11-07T15:17:36.9262230+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="83459465-b3be-47e4-8808-8370190c91dc">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method testPM.UnitTest2.TestGiamGia1 threw exception: 
+System.InvalidOperationException: sai định dạng</Message>
+          <StackTrace>    at testPM.UnitTest2.TestGiamGia1() in C:\Users\Dell\Desktop\Dangnhap\testPM\UnitTest2.cs:line 40
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

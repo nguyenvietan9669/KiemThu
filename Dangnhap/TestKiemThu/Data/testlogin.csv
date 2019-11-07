@@ -1,0 +1,14 @@
+﻿username,password,expected
+admin,123,true
+nva,123,true
+admin,,false
+nva,,false
+,123,false
+,,false
+nhapsai,,false
+nhapsai,123,false
+admin,12334,false
+nva,1234,false
+***,/$%$#,false
+*$%,,false
+,%$#,false
