@@ -23,6 +23,7 @@ namespace testPM
             int discount = int.Parse(TestContext.DataRow[1].ToString());
             double final = int.Parse(TestContext.DataRow[2].ToString());
             bool expected = bool.Parse(TestContext.DataRow[3].ToString());
+            ;
             QuanLy q = new QuanLy();
             bool actual = q.ThanhCong(idBill, discount, final);
             Assert.AreEqual(expected, actual);

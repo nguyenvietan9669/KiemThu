@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="b5ce33d4-9d58-4f0e-9423-c42401a41031" name="Dell@DESKTOP-LTNHK23 2019-11-08 14:03:44" runUser="DESKTOP-LTNHK23\Dell" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="cea33156-e72c-4d1b-a57b-eb1a5b3c21c1">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Dell_DESKTOP-LTNHK23 2019-11-08 14_03_44">
+      <DeploymentItem filename="C:\Users\Dell\Desktop\Dangnhap\Dangnhap\bin\Debug\Dangnhap.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2019-11-08T14:03:44.6481445+07:00" queuing="2019-11-08T14:03:44.6901309+07:00" start="2019-11-08T14:03:44.6981278+07:00" finish="2019-11-08T14:03:45.3478618+07:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="6" executed="6" passed="4" error="0" failed="2" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="DESKTOP-LTNHK23" outcome="Warning" timestamp="2019-11-08T14:03:44.6891312+07:00">
+        <Text>Deployment is currently disabled. The deployment item 'testPM\testThanhToan.csv' on test 'testPM.Test_ThanhToan.test_ThanhToan' was not deployed.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="test_ThanhToan" storage="c:\users\dell\desktop\dangnhap\testpm\bin\debug\testpm.dll" id="2169934a-9f13-ee0b-caac-0e95b5225d2b">
+      <DeploymentItems>
+        <DeploymentItem filename="testPM\testThanhToan.csv" />
+      </DeploymentItems>
+      <Execution id="4f59a354-e994-45eb-904a-538f6c73f313" />
+      <TestMethod codeBase="C:/Users/Dell/Desktop/Dangnhap/testPM/bin/Debug/testPM.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="testPM.Test_ThanhToan, testPM, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="test_ThanhToan" />
+      <DataSource connectionString="|DataDirectory|\testThanhToan.csv" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.CSV" tableName="testThanhToan#csv" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="2169934a-9f13-ee0b-caac-0e95b5225d2b" executionId="4f59a354-e994-45eb-904a-538f6c73f313" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="4f59a354-e994-45eb-904a-538f6c73f313" testId="2169934a-9f13-ee0b-caac-0e95b5225d2b" testName="test_ThanhToan" computerName="DESKTOP-LTNHK23" duration="00:00:00.2694739" startTime="2019-11-08T14:03:44.7081258+07:00" endTime="2019-11-08T14:03:45.3268601+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4f59a354-e994-45eb-904a-538f6c73f313" resultType="DataDrivenTest">
+      <Counters error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="4" completed="0" inProgress="0" pending="0" />
+      <InnerResults>
+        <UnitTestResult executionId="32cb4424-8a1e-479b-a838-292b86235f06" parentExecutionId="4f59a354-e994-45eb-904a-538f6c73f313" testId="2169934a-9f13-ee0b-caac-0e95b5225d2b" testName="test_ThanhToan" computerName="DESKTOP-LTNHK23" duration="00:00:00.0791693" startTime="2019-11-08T14:03:45.2068680+07:00" endTime="2019-11-08T14:03:45.2898721+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4f59a354-e994-45eb-904a-538f6c73f313" dataRowInfo="0" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="f10eeadb-4bc5-4933-b384-275907c81d97" parentExecutionId="4f59a354-e994-45eb-904a-538f6c73f313" testId="2169934a-9f13-ee0b-caac-0e95b5225d2b" testName="test_ThanhToan" computerName="DESKTOP-LTNHK23" duration="00:00:00.0005124" startTime="2019-11-08T14:03:45.2898721+07:00" endTime="2019-11-08T14:03:45.2908717+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4f59a354-e994-45eb-904a-538f6c73f313" dataRowInfo="1" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="10028ff1-27a4-4d62-9fd9-7caa89165825" parentExecutionId="4f59a354-e994-45eb-904a-538f6c73f313" testId="2169934a-9f13-ee0b-caac-0e95b5225d2b" testName="test_ThanhToan" computerName="DESKTOP-LTNHK23" duration="00:00:00.0000313" startTime="2019-11-08T14:03:45.2908717+07:00" endTime="2019-11-08T14:03:45.2908717+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4f59a354-e994-45eb-904a-538f6c73f313" dataRowInfo="2" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="b9803949-aac2-43b2-971e-0d4fb7a7cd08" parentExecutionId="4f59a354-e994-45eb-904a-538f6c73f313" testId="2169934a-9f13-ee0b-caac-0e95b5225d2b" testName="test_ThanhToan" computerName="DESKTOP-LTNHK23" duration="00:00:00.0002776" startTime="2019-11-08T14:03:45.2908717+07:00" endTime="2019-11-08T14:03:45.2908717+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4f59a354-e994-45eb-904a-538f6c73f313" dataRowInfo="3" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="2791aaf2-b228-47c6-a21c-3c49b2b89d02" parentExecutionId="4f59a354-e994-45eb-904a-538f6c73f313" testId="2169934a-9f13-ee0b-caac-0e95b5225d2b" testName="test_ThanhToan" computerName="DESKTOP-LTNHK23" duration="00:00:00.0210455" startTime="2019-11-08T14:03:45.2908717+07:00" endTime="2019-11-08T14:03:45.3118644+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4f59a354-e994-45eb-904a-538f6c73f313" dataRowInfo="4" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Test method testPM.Test_ThanhToan.test_ThanhToan threw exception: 
+System.FormatException: Input string was not in a correct format.</Message>
+              <StackTrace>    at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer&amp; number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at testPM.Test_ThanhToan.test_ThanhToan() in C:\Users\Dell\Desktop\Dangnhap\testPM\Test_ThanhToan.cs:line 22
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+      </InnerResults>
+    </UnitTestResult>
+  </Results>
+</TestRun>

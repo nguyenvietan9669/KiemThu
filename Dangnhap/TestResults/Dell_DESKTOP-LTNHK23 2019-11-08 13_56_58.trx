@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<TestRun id="1a0eecbe-9b9d-492c-a7a4-0c483bc69be0" name="Dell@DESKTOP-LTNHK23 2019-11-07 15:38:29" runUser="DESKTOP-LTNHK23\Dell" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+<TestRun id="b13e6b0b-67bb-4a8b-b29a-0b4d159861c4" name="Dell@DESKTOP-LTNHK23 2019-11-08 13:56:58" runUser="DESKTOP-LTNHK23\Dell" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
   <TestSettings name="Local" id="cea33156-e72c-4d1b-a57b-eb1a5b3c21c1">
     <Description>These are default test settings for a local test run.</Description>
-    <Deployment enabled="false" runDeploymentRoot="Dell_DESKTOP-LTNHK23 2019-11-07 15_38_29">
+    <Deployment enabled="false" runDeploymentRoot="Dell_DESKTOP-LTNHK23 2019-11-08 13_56_58">
       <DeploymentItem filename="C:\Users\Dell\Desktop\Dangnhap\Dangnhap\bin\Debug\Dangnhap.exe" />
     </Deployment>
     <Execution>
@@ -11,13 +11,13 @@
       </AgentRule>
     </Execution>
   </TestSettings>
-  <Times creation="2019-11-07T15:38:29.3939713+07:00" queuing="2019-11-07T15:38:29.4419600+07:00" start="2019-11-07T15:38:29.4469547+07:00" finish="2019-11-07T15:38:29.9048085+07:00" />
+  <Times creation="2019-11-08T13:56:58.6545958+07:00" queuing="2019-11-08T13:56:58.6866019+07:00" start="2019-11-08T13:56:58.6905933+07:00" finish="2019-11-08T13:56:59.0034855+07:00" />
   <ResultSummary outcome="Completed">
     <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
   </ResultSummary>
   <TestDefinitions>
     <UnitTest name="test_ThanhToan" storage="c:\users\dell\desktop\dangnhap\testpm\bin\debug\testpm.dll" id="2169934a-9f13-ee0b-caac-0e95b5225d2b">
-      <Execution id="030466d6-73e3-46dd-9ca8-edcc118b9bd5" />
+      <Execution id="a753cd3f-e2ef-4846-aa9f-49774bb6b2f7" />
       <TestMethod codeBase="C:/Users/Dell/Desktop/Dangnhap/testPM/bin/Debug/testPM.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="testPM.Test_ThanhToan, testPM, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="test_ThanhToan" />
     </UnitTest>
   </TestDefinitions>
@@ -26,10 +26,10 @@
     <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
   </TestLists>
   <TestEntries>
-    <TestEntry testId="2169934a-9f13-ee0b-caac-0e95b5225d2b" executionId="030466d6-73e3-46dd-9ca8-edcc118b9bd5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2169934a-9f13-ee0b-caac-0e95b5225d2b" executionId="a753cd3f-e2ef-4846-aa9f-49774bb6b2f7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
   </TestEntries>
   <Results>
-    <UnitTestResult executionId="030466d6-73e3-46dd-9ca8-edcc118b9bd5" testId="2169934a-9f13-ee0b-caac-0e95b5225d2b" testName="test_ThanhToan" computerName="DESKTOP-LTNHK23" duration="00:00:00.0822392" startTime="2019-11-07T15:38:29.4559545+07:00" endTime="2019-11-07T15:38:29.8858148+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="030466d6-73e3-46dd-9ca8-edcc118b9bd5">
+    <UnitTestResult executionId="a753cd3f-e2ef-4846-aa9f-49774bb6b2f7" testId="2169934a-9f13-ee0b-caac-0e95b5225d2b" testName="test_ThanhToan" computerName="DESKTOP-LTNHK23" duration="00:00:00.0661456" startTime="2019-11-08T13:56:58.6976033+07:00" endTime="2019-11-08T13:56:58.9834913+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a753cd3f-e2ef-4846-aa9f-49774bb6b2f7">
     </UnitTestResult>
   </Results>
 </TestRun>

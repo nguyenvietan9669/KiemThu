@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="b5a6a4f3-e5b8-4fef-8f3c-dc6f61860985" name="Dell@DESKTOP-LTNHK23 2019-11-08 14:15:58" runUser="DESKTOP-LTNHK23\Dell" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="cea33156-e72c-4d1b-a57b-eb1a5b3c21c1">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Dell_DESKTOP-LTNHK23 2019-11-08 14_15_58">
+      <DeploymentItem filename="C:\Users\Dell\Desktop\Dangnhap\Dangnhap\bin\Debug\Dangnhap.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2019-11-08T14:15:58.4144399+07:00" queuing="2019-11-08T14:15:58.4354199+07:00" start="2019-11-08T14:15:58.4404166+07:00" finish="2019-11-08T14:15:58.9124377+07:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="16" executed="16" passed="14" error="0" failed="2" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="DESKTOP-LTNHK23" outcome="Warning" timestamp="2019-11-08T14:15:58.4354199+07:00">
+        <Text>Deployment is currently disabled. The deployment item 'testPM\testLogin.csv' on test 'testPM.TestLogin.TestCNLogin' was not deployed.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestCNLogin" storage="c:\users\dell\desktop\dangnhap\testpm\bin\debug\testpm.dll" id="e7975907-abd7-c724-e54c-c8600f564d67">
+      <DeploymentItems>
+        <DeploymentItem filename="testPM\testLogin.csv" />
+      </DeploymentItems>
+      <Execution id="50d605d4-02dd-4398-8c3c-b78c0685058b" />
+      <TestMethod codeBase="C:/Users/Dell/Desktop/Dangnhap/testPM/bin/Debug/testPM.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="testPM.TestLogin, testPM, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestCNLogin" />
+      <DataSource connectionString="|DataDirectory|\testLogin.csv" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.CSV" tableName="testLogin#csv" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="e7975907-abd7-c724-e54c-c8600f564d67" executionId="50d605d4-02dd-4398-8c3c-b78c0685058b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="50d605d4-02dd-4398-8c3c-b78c0685058b" testId="e7975907-abd7-c724-e54c-c8600f564d67" testName="TestCNLogin" computerName="DESKTOP-LTNHK23" duration="00:00:00.2098183" startTime="2019-11-08T14:15:58.4484137+07:00" endTime="2019-11-08T14:15:58.8934545+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="50d605d4-02dd-4398-8c3c-b78c0685058b" resultType="DataDrivenTest">
+      <Counters error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="14" completed="0" inProgress="0" pending="0" />
+      <InnerResults>
+        <UnitTestResult executionId="9f4ec846-b161-4eb3-8d55-ce3d773a74b0" parentExecutionId="50d605d4-02dd-4398-8c3c-b78c0685058b" testId="e7975907-abd7-c724-e54c-c8600f564d67" testName="TestCNLogin" computerName="DESKTOP-LTNHK23" duration="00:00:00.0482576" startTime="2019-11-08T14:15:58.7833952+07:00" endTime="2019-11-08T14:15:58.8364622+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="50d605d4-02dd-4398-8c3c-b78c0685058b" dataRowInfo="0" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="8e12698a-2fa3-428c-bc1c-3799fba841b2" parentExecutionId="50d605d4-02dd-4398-8c3c-b78c0685058b" testId="e7975907-abd7-c724-e54c-c8600f564d67" testName="TestCNLogin" computerName="DESKTOP-LTNHK23" duration="00:00:00.0023665" startTime="2019-11-08T14:15:58.8364622+07:00" endTime="2019-11-08T14:15:58.8384630+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="50d605d4-02dd-4398-8c3c-b78c0685058b" dataRowInfo="1" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="60bc1d0c-2b9a-445f-b5d5-4b9de1201ff9" parentExecutionId="50d605d4-02dd-4398-8c3c-b78c0685058b" testId="e7975907-abd7-c724-e54c-c8600f564d67" testName="TestCNLogin" computerName="DESKTOP-LTNHK23" duration="00:00:00.0009712" startTime="2019-11-08T14:15:58.8384630+07:00" endTime="2019-11-08T14:15:58.8394717+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="50d605d4-02dd-4398-8c3c-b78c0685058b" dataRowInfo="2" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="66a3dc32-8cac-4c5a-ae58-499d25435db8" parentExecutionId="50d605d4-02dd-4398-8c3c-b78c0685058b" testId="e7975907-abd7-c724-e54c-c8600f564d67" testName="TestCNLogin" computerName="DESKTOP-LTNHK23" duration="00:00:00.0008152" startTime="2019-11-08T14:15:58.8394717+07:00" endTime="2019-11-08T14:15:58.8404710+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="50d605d4-02dd-4398-8c3c-b78c0685058b" dataRowInfo="3" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="d21f2ec8-98eb-4321-82e4-c5269b6b6f99" parentExecutionId="50d605d4-02dd-4398-8c3c-b78c0685058b" testId="e7975907-abd7-c724-e54c-c8600f564d67" testName="TestCNLogin" computerName="DESKTOP-LTNHK23" duration="00:00:00.0008227" startTime="2019-11-08T14:15:58.8404710+07:00" endTime="2019-11-08T14:15:58.8414715+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="50d605d4-02dd-4398-8c3c-b78c0685058b" dataRowInfo="4" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="61685a3c-eafd-4e7b-951c-84424883403b" parentExecutionId="50d605d4-02dd-4398-8c3c-b78c0685058b" testId="e7975907-abd7-c724-e54c-c8600f564d67" testName="TestCNLogin" computerName="DESKTOP-LTNHK23" duration="00:00:00.0008555" startTime="2019-11-08T14:15:58.8414715+07:00" endTime="2019-11-08T14:15:58.8424710+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="50d605d4-02dd-4398-8c3c-b78c0685058b" dataRowInfo="5" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="71c4dc27-036e-4d59-877f-8bbccde1a99d" parentExecutionId="50d605d4-02dd-4398-8c3c-b78c0685058b" testId="e7975907-abd7-c724-e54c-c8600f564d67" testName="TestCNLogin" computerName="DESKTOP-LTNHK23" duration="00:00:00.0008147" startTime="2019-11-08T14:15:58.8424710+07:00" endTime="2019-11-08T14:15:58.8434705+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="50d605d4-02dd-4398-8c3c-b78c0685058b" dataRowInfo="6" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="ffbbf312-c1ff-48d8-a15c-b5cf2d1f2e72" parentExecutionId="50d605d4-02dd-4398-8c3c-b78c0685058b" testId="e7975907-abd7-c724-e54c-c8600f564d67" testName="TestCNLogin" computerName="DESKTOP-LTNHK23" duration="00:00:00.0007954" startTime="2019-11-08T14:15:58.8434705+07:00" endTime="2019-11-08T14:15:58.8444608+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="50d605d4-02dd-4398-8c3c-b78c0685058b" dataRowInfo="7" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="081a6367-8fa6-4f57-ab8f-775a17347f4f" parentExecutionId="50d605d4-02dd-4398-8c3c-b78c0685058b" testId="e7975907-abd7-c724-e54c-c8600f564d67" testName="TestCNLogin" computerName="DESKTOP-LTNHK23" duration="00:00:00.0009347" startTime="2019-11-08T14:15:58.8444608+07:00" endTime="2019-11-08T14:15:58.8454588+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="50d605d4-02dd-4398-8c3c-b78c0685058b" dataRowInfo="8" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="3a211dce-1a40-4caa-bf88-3d40b35b25c0" parentExecutionId="50d605d4-02dd-4398-8c3c-b78c0685058b" testId="e7975907-abd7-c724-e54c-c8600f564d67" testName="TestCNLogin" computerName="DESKTOP-LTNHK23" duration="00:00:00.0019602" startTime="2019-11-08T14:15:58.8454588+07:00" endTime="2019-11-08T14:15:58.8474598+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="50d605d4-02dd-4398-8c3c-b78c0685058b" dataRowInfo="9" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="e460f2ca-fcd2-44cd-88ef-3fe4c7cb23ab" parentExecutionId="50d605d4-02dd-4398-8c3c-b78c0685058b" testId="e7975907-abd7-c724-e54c-c8600f564d67" testName="TestCNLogin" computerName="DESKTOP-LTNHK23" duration="00:00:00.0007851" startTime="2019-11-08T14:15:58.8474598+07:00" endTime="2019-11-08T14:15:58.8474598+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="50d605d4-02dd-4398-8c3c-b78c0685058b" dataRowInfo="10" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="345f5580-5eb5-4718-99ab-d0736d6d0a55" parentExecutionId="50d605d4-02dd-4398-8c3c-b78c0685058b" testId="e7975907-abd7-c724-e54c-c8600f564d67" testName="TestCNLogin" computerName="DESKTOP-LTNHK23" duration="00:00:00.0009002" startTime="2019-11-08T14:15:58.8474598+07:00" endTime="2019-11-08T14:15:58.8484587+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="50d605d4-02dd-4398-8c3c-b78c0685058b" dataRowInfo="11" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="577c5303-245d-4192-b783-514bb0aebf61" parentExecutionId="50d605d4-02dd-4398-8c3c-b78c0685058b" testId="e7975907-abd7-c724-e54c-c8600f564d67" testName="TestCNLogin" computerName="DESKTOP-LTNHK23" duration="00:00:00.0008753" startTime="2019-11-08T14:15:58.8484587+07:00" endTime="2019-11-08T14:15:58.8494589+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="50d605d4-02dd-4398-8c3c-b78c0685058b" dataRowInfo="12" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="bcb51aaf-a391-4dec-9e92-1f79a62651c9" parentExecutionId="50d605d4-02dd-4398-8c3c-b78c0685058b" testId="e7975907-abd7-c724-e54c-c8600f564d67" testName="TestCNLogin" computerName="DESKTOP-LTNHK23" duration="00:00:00.0008421" startTime="2019-11-08T14:15:58.8494589+07:00" endTime="2019-11-08T14:15:58.8504581+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="50d605d4-02dd-4398-8c3c-b78c0685058b" dataRowInfo="13" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="95cb0299-0dc9-435e-a36d-2d6df74afe10" parentExecutionId="50d605d4-02dd-4398-8c3c-b78c0685058b" testId="e7975907-abd7-c724-e54c-c8600f564d67" testName="TestCNLogin" computerName="DESKTOP-LTNHK23" duration="00:00:00.0159966" startTime="2019-11-08T14:15:58.8504581+07:00" endTime="2019-11-08T14:15:58.8664684+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="50d605d4-02dd-4398-8c3c-b78c0685058b" dataRowInfo="14" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Test method testPM.TestLogin.TestCNLogin threw exception: 
+System.InvalidOperationException: số kí tự quá lớn</Message>
+              <StackTrace>    at testPM.TestLogin.TestCNLogin() in C:\Users\Dell\Desktop\Dangnhap\testPM\Test_Login.cs:line 27
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+      </InnerResults>
+    </UnitTestResult>
+  </Results>
+</TestRun>

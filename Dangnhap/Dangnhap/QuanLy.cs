@@ -172,62 +172,82 @@ namespace Dangnhap
                 BillinfoDAO.Instance.InsertBillinfo(idBill, foodID, Count);
             }
             ShowBill(table.ID);
+            LoadTable();
         }
+        //public bool ThemMon(int idbill, int foodid, int somon, int idtable)
+        //{
+        //    Table table = lsWMonAn.Tag as Table;
+        //    if (table == null)
+        //    {
+        //        MessageBox.Show("Mời chọn bàn");
+        //        throw new InvalidOperationException("Chưa chọn bạn");
+        //    }
+        //    int idBill = idbill;
+        //    int foodID = foodid;
+        //    int Count = somon;
+        //    if (idBill == -1)
+        //    {
+        //        BillDAO.Instance.InsertBill(idtable);
+        //        BillinfoDAO.Instance.InsertBillinfo(BillDAO.Instance.GetMaxIDBill(), foodID, Count);
+        //        return true;
+        //    }
+        //    else
+        //    {
+        //        BillinfoDAO.Instance.InsertBillinfo(idBill, foodID, Count);
+        //        return true;
+        //    }
+        //    return false;
+        //}
         private void btnThanhToan_Click(object sender, EventArgs e)
         {
-            Table table = lsWMonAn.Tag as Table;
-            int idBill = BillDAO.Instance.GetUnBillByTableID(table.ID);
-            int discount = (int)nmDGiamGia.Value;
-            double final =Convert.ToDouble(txttotalPrice.Text.Split(',')[0]);
-            if (final <= 0)
-            {
-                throw new InvalidOperationException();
-            }
-            else
-            if (idBill != -1)
-            {
-                if (MessageBox.Show("Bạn có chắc chắn muốn thanh toán cho " + table.Name , "Thông báo", MessageBoxButtons.OKCancel) == System.Windows.Forms.DialogResult.OK)
+                Table table = lsWMonAn.Tag as Table;
+                int idBill = BillDAO.Instance.GetUnBillByTableID(table.ID);
+                int discount = (int)nmDGiamGia.Value;
+                double totalPrice = Convert.ToDouble(txttotalPrice.Text.Split(',')[0]);
+                double final = totalPrice - (totalPrice / 100) * discount;
+                final = final * 1000;
+                CultureInfo culture = new CultureInfo("vi-VN");
+                if (final <= 0||discount <0)
                 {
-                    BillDAO.Instance.CheckOut(idBill,discount,(float)final);
-                    ShowBill(table.ID);
-                 
+                    MessageBox.Show("giá trị nhập vào chưa đúng mời nhập lại");
+                    return;
                 }
+                else
+                    if (idBill != -1)
+                    {
+                        if (MessageBox.Show("Bạn có chắc chắn muốn thanh toán cho " + table.Name, "Thông báo", MessageBoxButtons.OKCancel) == System.Windows.Forms.DialogResult.OK)
+                        {
+                            MessageBox.Show("Tổng tiền của bàn " + table.Name + "Là :" + final + " (VNĐ)");
+                            BillDAO.Instance.CheckOut(idBill, discount, (float)final);
+                            ShowBill(table.ID);
+                            LoadTable();
+                        }
             }
         }
-        public bool ThanhCong(int idbill,int Discount,double Final)
+        public bool ThanhCong(int id, int dis, double fl)
         {
-            int idBill = idbill;
-            int discount = Discount;
-            double final = Final;
-            if (final <= 0)
-            {
-                throw new InvalidOperationException("sai định dạng"); ;
-            }
-            else
-            if (idBill != -1)
-            {
-                return true;
-            }
-            return false;
+                int idBill = id;
+                int discount = dis;
+                double totalPrice = fl;
+                double final = totalPrice - (totalPrice / 100) * discount;
+                final = final * 1000;
+                if (final <= 0 || discount < 0)
+                {
+                    return false;
+                }
+                else
+                {
+                    if (idBill != -1)
+                    {
+                        BillDAO.Instance.CheckOut(idBill, discount, (float)final);
+                        return true;
+                    }
+                    return false;
+                }
+                
         }
         #endregion
 
-        private void btnGiamGia_Click(object sender, EventArgs e)
-        {
-            int discount = (int)nmDGiamGia.Value;
-            double totalPrice = Convert.ToDouble(txttotalPrice.Text.Split(',')[0]);
-            double final = totalPrice - (totalPrice / 100) * discount;
-            if (discount > 100 || discount < 0)
-            {
-                throw new InvalidOperationException("sai định dạng");
-            }
-            else
-            {
-                final = final * 1000;
-                CultureInfo culture = new CultureInfo("vi-VN");
-                txttotalPrice.Text = final.ToString("c", culture);
-            }
-        }
         public double GiamGia(int giagiam, double tongTien)
         {
             int discount = giagiam;
@@ -255,7 +275,6 @@ namespace Dangnhap
             {
                 TableDAO.Instance.SwitchTable(table1, tbale2);
                 LoadTable();
-
             }
         }
 

@@ -51,7 +51,6 @@
     <Compile Include="Test_Login.cs">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Compile>
-    <Compile Include="Test_Discount.cs" />
     <Compile Include="Test_ThanhToan.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -69,6 +68,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="testThanhToan.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="TestThemMon.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>

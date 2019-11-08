@@ -1,0 +1,6 @@
+﻿idbill,foodid,somon,idtable,expected
+1,4,2,2,true
+-1,4,2,2,false
+1,-4,2,2,false
+1,4,2,-2,false
+0,0,0,0,true

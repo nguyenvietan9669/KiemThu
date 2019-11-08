@@ -17,13 +17,14 @@ namespace Dangnhap.DAO
             get { if (instance == null) instance = new AccountDAO(); return instance; }
             private set { instance = value; }
         }
-        public AccountDAO() { }
+        public AccountDAO() { }      
         public bool Login(string userName, string passWord)
         {
             string query = "USP_Login @userName , @passWord ";
             DataTable result = dataProvider.Instance.ExecuteQuery(query, new object[]{userName,passWord});
             return result.Rows.Count>0;
         }
+
         public bool UpdateAccount(string userName, string DisPlayName, string pass,string newpass)
         {
             int result  = dataProvider.Instance.ExecuteNonQuery("exec USP_updateAccount @userName  , @disPlayName , @password , @newPassword ", new object[]{userName,DisPlayName,pass,newpass});

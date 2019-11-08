@@ -29,7 +29,7 @@ namespace Dangnhap.DAO
         }
         public void CheckOut(int id,int discount,float totalPrice)
         {
-            string query = "update dbo.Bill set NgayRa = GETDATE(), status = 1,"+"discount = "+discount+",totalPrice ="+totalPrice+" where ID = "+id;
+            string query = "update dbo.Bill set NgayRa = GETDATE(), status = 1,totalPrice ="+totalPrice+",discount ="+discount+" where ID = "+id;
             dataProvider.Instance.ExecuteNonQuery(query);
         }
         public void InsertBill(int id)

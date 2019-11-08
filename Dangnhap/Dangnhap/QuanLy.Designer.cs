@@ -46,7 +46,6 @@
             this.pnTroGiup = new System.Windows.Forms.Panel();
             this.txttotalPrice = new System.Windows.Forms.TextBox();
             this.cbChuyenBan = new System.Windows.Forms.ComboBox();
-            this.btnGiamGia = new System.Windows.Forms.Button();
             this.nmDGiamGia = new System.Windows.Forms.NumericUpDown();
             this.btnChuyenBan = new System.Windows.Forms.Button();
             this.btnThanhToan = new System.Windows.Forms.Button();
@@ -56,6 +55,7 @@
             this.cbMonAn = new System.Windows.Forms.ComboBox();
             this.cbDanhMuc = new System.Windows.Forms.ComboBox();
             this.flPDsBan = new System.Windows.Forms.FlowLayoutPanel();
+            this.lblGiamGia = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.pnTroGiup.SuspendLayout();
@@ -186,9 +186,9 @@
             // 
             // pnTroGiup
             // 
+            this.pnTroGiup.Controls.Add(this.lblGiamGia);
             this.pnTroGiup.Controls.Add(this.txttotalPrice);
             this.pnTroGiup.Controls.Add(this.cbChuyenBan);
-            this.pnTroGiup.Controls.Add(this.btnGiamGia);
             this.pnTroGiup.Controls.Add(this.nmDGiamGia);
             this.pnTroGiup.Controls.Add(this.btnChuyenBan);
             this.pnTroGiup.Controls.Add(this.btnThanhToan);
@@ -216,18 +216,6 @@
             this.cbChuyenBan.Name = "cbChuyenBan";
             this.cbChuyenBan.Size = new System.Drawing.Size(117, 28);
             this.cbChuyenBan.TabIndex = 1;
-            // 
-            // btnGiamGia
-            // 
-            this.btnGiamGia.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGiamGia.ForeColor = System.Drawing.Color.Black;
-            this.btnGiamGia.Location = new System.Drawing.Point(126, 3);
-            this.btnGiamGia.Name = "btnGiamGia";
-            this.btnGiamGia.Size = new System.Drawing.Size(102, 38);
-            this.btnGiamGia.TabIndex = 4;
-            this.btnGiamGia.Text = "Giảm Giá";
-            this.btnGiamGia.UseVisualStyleBackColor = true;
-            this.btnGiamGia.Click += new System.EventHandler(this.btnGiamGia_Click);
             // 
             // nmDGiamGia
             // 
@@ -327,6 +315,16 @@
             this.flPDsBan.Size = new System.Drawing.Size(732, 687);
             this.flPDsBan.TabIndex = 5;
             // 
+            // lblGiamGia
+            // 
+            this.lblGiamGia.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblGiamGia.Location = new System.Drawing.Point(128, 6);
+            this.lblGiamGia.Name = "lblGiamGia";
+            this.lblGiamGia.Size = new System.Drawing.Size(100, 33);
+            this.lblGiamGia.TabIndex = 6;
+            this.lblGiamGia.Text = "Giảm giá";
+            this.lblGiamGia.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // QuanLy
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -375,7 +373,6 @@
         private System.Windows.Forms.ComboBox cbDanhMuc;
         private System.Windows.Forms.FlowLayoutPanel flPDsBan;
         private System.Windows.Forms.ComboBox cbChuyenBan;
-        private System.Windows.Forms.Button btnGiamGia;
         private System.Windows.Forms.NumericUpDown nmDGiamGia;
         private System.Windows.Forms.Button btnChuyenBan;
         private System.Windows.Forms.ColumnHeader columnHeader1;
@@ -387,5 +384,6 @@
         private System.Windows.Forms.ToolStripMenuItem thanhToánToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem thêmMónToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem chuyểnBànToolStripMenuItem;
+        private System.Windows.Forms.Label lblGiamGia;
     }
 }
