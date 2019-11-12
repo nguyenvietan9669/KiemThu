@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="0bb0eb20-e228-42a6-8390-1a5dadb992ad" name="Dell@DESKTOP-LTNHK23 2019-11-12 17:44:53" runUser="DESKTOP-LTNHK23\Dell" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="cea33156-e72c-4d1b-a57b-eb1a5b3c21c1">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Dell_DESKTOP-LTNHK23 2019-11-12 17_44_53">
+      <DeploymentItem filename="C:\Users\Dell\Desktop\Dangnhap\Dangnhap\bin\Debug\Dangnhap.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2019-11-12T17:44:53.0977727+07:00" queuing="2019-11-12T17:44:53.1077612+07:00" start="2019-11-12T17:44:53.1127553+07:00" finish="2019-11-12T17:44:53.5597303+07:00" />
+  <ResultSummary outcome="Warning">
+    <Counters total="3" executed="3" passed="3" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="DESKTOP-LTNHK23" outcome="Warning" timestamp="2019-11-12T17:44:53.1077612+07:00">
+        <Text>Deployment is currently disabled. The deployment item 'testPM\testThem.csv' on test 'testPM.Test_Them.testThem' was not deployed.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="testThem" storage="c:\users\dell\desktop\dangnhap\testpm\bin\debug\testpm.dll" id="84b817a3-d9ea-4ee7-4bce-6233ff1a22ec">
+      <DeploymentItems>
+        <DeploymentItem filename="testPM\testThem.csv" />
+      </DeploymentItems>
+      <Execution id="d07095b7-3ad9-4360-8f0c-3172f32c0d0e" />
+      <TestMethod codeBase="C:/Users/Dell/Desktop/Dangnhap/testPM/bin/Debug/testPM.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="testPM.Test_Them, testPM, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="testThem" />
+      <DataSource connectionString="|DataDirectory|\testThem.csv" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.CSV" tableName="testThem#csv" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="84b817a3-d9ea-4ee7-4bce-6233ff1a22ec" executionId="d07095b7-3ad9-4360-8f0c-3172f32c0d0e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="d07095b7-3ad9-4360-8f0c-3172f32c0d0e" testId="84b817a3-d9ea-4ee7-4bce-6233ff1a22ec" testName="testThem" computerName="DESKTOP-LTNHK23" duration="00:00:00.2187034" startTime="2019-11-12T17:44:53.1247493+07:00" endTime="2019-11-12T17:44:53.5417375+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d07095b7-3ad9-4360-8f0c-3172f32c0d0e" resultType="DataDrivenTest">
+      <Counters error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="2" completed="0" inProgress="0" pending="0" />
+      <InnerResults>
+        <UnitTestResult executionId="bcfbbe88-63c1-4e8b-b9e1-d243f37e71da" parentExecutionId="d07095b7-3ad9-4360-8f0c-3172f32c0d0e" testId="84b817a3-d9ea-4ee7-4bce-6233ff1a22ec" testName="testThem" computerName="DESKTOP-LTNHK23" duration="00:00:00.0972599" startTime="2019-11-12T17:44:53.4194153+07:00" endTime="2019-11-12T17:44:53.5207432+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d07095b7-3ad9-4360-8f0c-3172f32c0d0e" dataRowInfo="0" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="327d7735-e6cd-453b-adc1-8ecfb70895b2" parentExecutionId="d07095b7-3ad9-4360-8f0c-3172f32c0d0e" testId="84b817a3-d9ea-4ee7-4bce-6233ff1a22ec" testName="testThem" computerName="DESKTOP-LTNHK23" duration="00:00:00.0086056" startTime="2019-11-12T17:44:53.5207432+07:00" endTime="2019-11-12T17:44:53.5297416+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d07095b7-3ad9-4360-8f0c-3172f32c0d0e" dataRowInfo="1" resultType="DataDrivenDataRow" />
+      </InnerResults>
+    </UnitTestResult>
+  </Results>
+</TestRun>

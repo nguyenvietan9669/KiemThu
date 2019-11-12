@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="8d19f00d-8834-4a17-ac61-d0b84de3d047" name="Dell@DESKTOP-LTNHK23 2019-11-12 17:41:48" runUser="DESKTOP-LTNHK23\Dell" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="cea33156-e72c-4d1b-a57b-eb1a5b3c21c1">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Dell_DESKTOP-LTNHK23 2019-11-12 17_41_48">
+      <DeploymentItem filename="C:\Users\Dell\Desktop\Dangnhap\Dangnhap\bin\Debug\Dangnhap.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2019-11-12T17:41:48.6261243+07:00" queuing="2019-11-12T17:41:48.8106752+07:00" start="2019-11-12T17:41:48.8496626+07:00" finish="2019-11-12T17:41:49.5674333+07:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="3" executed="3" passed="1" error="0" failed="2" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="DESKTOP-LTNHK23" outcome="Warning" timestamp="2019-11-12T17:41:48.6527409+07:00">
+        <Text>Deployment is currently disabled. The deployment item 'testPM\testThem.csv' on test 'testPM.Test_Them.testThem' was not deployed.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="testThem" storage="c:\users\dell\desktop\dangnhap\testpm\bin\debug\testpm.dll" id="84b817a3-d9ea-4ee7-4bce-6233ff1a22ec">
+      <DeploymentItems>
+        <DeploymentItem filename="testPM\testThem.csv" />
+      </DeploymentItems>
+      <Execution id="80a6ddcf-f94d-44cb-9e05-e889f5805d1f" />
+      <TestMethod codeBase="C:/Users/Dell/Desktop/Dangnhap/testPM/bin/Debug/testPM.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="testPM.Test_Them, testPM, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="testThem" />
+      <DataSource connectionString="|DataDirectory|\testThem.csv" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.CSV" tableName="testThem#csv" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="84b817a3-d9ea-4ee7-4bce-6233ff1a22ec" executionId="80a6ddcf-f94d-44cb-9e05-e889f5805d1f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="80a6ddcf-f94d-44cb-9e05-e889f5805d1f" testId="84b817a3-d9ea-4ee7-4bce-6233ff1a22ec" testName="testThem" computerName="DESKTOP-LTNHK23" duration="00:00:00.3585186" startTime="2019-11-12T17:41:48.8606590+07:00" endTime="2019-11-12T17:41:49.5254685+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="80a6ddcf-f94d-44cb-9e05-e889f5805d1f" resultType="DataDrivenTest">
+      <Counters error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="1" completed="0" inProgress="0" pending="0" />
+      <InnerResults>
+        <UnitTestResult executionId="c4913f1a-96bf-44b8-9168-5eca02cedefa" parentExecutionId="80a6ddcf-f94d-44cb-9e05-e889f5805d1f" testId="84b817a3-d9ea-4ee7-4bce-6233ff1a22ec" testName="testThem" computerName="DESKTOP-LTNHK23" duration="00:00:00.1660582" startTime="2019-11-12T17:41:49.3185295+07:00" endTime="2019-11-12T17:41:49.4894589+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="80a6ddcf-f94d-44cb-9e05-e889f5805d1f" dataRowInfo="0" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="b98143aa-05ec-4d36-8ad2-c856730c7dd5" parentExecutionId="80a6ddcf-f94d-44cb-9e05-e889f5805d1f" testId="84b817a3-d9ea-4ee7-4bce-6233ff1a22ec" testName="testThem" computerName="DESKTOP-LTNHK23" duration="00:00:00.0231249" startTime="2019-11-12T17:41:49.4894589+07:00" endTime="2019-11-12T17:41:49.5124537+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="80a6ddcf-f94d-44cb-9e05-e889f5805d1f" dataRowInfo="1" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Test method testPM.Test_Them.testThem threw exception: 
+System.FormatException: String was not recognized as a valid Boolean.</Message>
+              <StackTrace>    at System.Boolean.Parse(String value)
+   at testPM.Test_Them.testThem() in C:\Users\Dell\Desktop\Dangnhap\testPM\Test_Them.cs:line 23
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+      </InnerResults>
+    </UnitTestResult>
+  </Results>
+</TestRun>

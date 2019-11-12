@@ -52,6 +52,8 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Compile>
     <Compile Include="Test_ThanhToan.cs" />
+    <Compile Include="Test_Them.cs" />
+    <Compile Include="Test_ThemMon.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Dangnhap\BaiTapLon.csproj">
@@ -68,6 +70,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="testThanhToan.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="testThem.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="TestThemMon.csv">

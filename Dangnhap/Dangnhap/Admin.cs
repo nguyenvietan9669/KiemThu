@@ -157,6 +157,27 @@ namespace Dangnhap
                 MessageBox.Show("Có lỗi khi thêm");
             }
         }
+        public bool Them(string ten, int categoryid, float gia)
+        {
+            string name = ten;
+            int categoryID = categoryid;
+            float price = gia;
+            {
+                if (FoodDAO.Instance.InsertFood(name, categoryID, price))
+                {
+                    LoadListFood();
+                    if (insertFood != null)
+                    {
+                        insertFood(this, new EventArgs());
+                    }
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
+            }
+        }
 
         private void btnSua_Click(object sender, EventArgs e)
         {

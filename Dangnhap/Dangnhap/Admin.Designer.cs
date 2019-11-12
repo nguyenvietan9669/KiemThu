@@ -89,6 +89,7 @@
             this.nmBGia = new System.Windows.Forms.NumericUpDown();
             this.lblTen = new System.Windows.Forms.Label();
             this.panel9 = new System.Windows.Forms.Panel();
+            this.cbDanhMuc = new System.Windows.Forms.ComboBox();
             this.lblDM = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
             this.txtTenMon = new System.Windows.Forms.TextBox();
@@ -106,7 +107,6 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.dtgvBill = new System.Windows.Forms.DataGridView();
             this.tabAdmin = new System.Windows.Forms.TabControl();
-            this.cbDanhMuc = new System.Windows.Forms.ComboBox();
             this.tabAcc.SuspendLayout();
             this.panel24.SuspendLayout();
             this.panel27.SuspendLayout();
@@ -723,6 +723,16 @@
             this.panel9.Size = new System.Drawing.Size(473, 67);
             this.panel9.TabIndex = 7;
             // 
+            // cbDanhMuc
+            // 
+            this.cbDanhMuc.AccessibleRole = System.Windows.Forms.AccessibleRole.ToolTip;
+            this.cbDanhMuc.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbDanhMuc.FormattingEnabled = true;
+            this.cbDanhMuc.Location = new System.Drawing.Point(120, 21);
+            this.cbDanhMuc.Name = "cbDanhMuc";
+            this.cbDanhMuc.Size = new System.Drawing.Size(335, 28);
+            this.cbDanhMuc.TabIndex = 1;
+            // 
             // lblDM
             // 
             this.lblDM.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -877,14 +887,6 @@
             this.tabAdmin.SelectedIndex = 0;
             this.tabAdmin.Size = new System.Drawing.Size(1161, 713);
             this.tabAdmin.TabIndex = 0;
-            // 
-            // cbDanhMuc
-            // 
-            this.cbDanhMuc.FormattingEnabled = true;
-            this.cbDanhMuc.Location = new System.Drawing.Point(120, 21);
-            this.cbDanhMuc.Name = "cbDanhMuc";
-            this.cbDanhMuc.Size = new System.Drawing.Size(335, 28);
-            this.cbDanhMuc.TabIndex = 1;
             // 
             // Admin
             // 

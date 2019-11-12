@@ -162,42 +162,51 @@ namespace Dangnhap
             int idBill = BillDAO.Instance.GetUnBillByTableID(table.ID);
             int foodID=(cbMonAn.SelectedItem as Food).ID;
             int Count = (int)nmBSoMon.Value;
+            if (Count < 0)
+            {
+                MessageBox.Show("Số món không hợp lệ");
+                return;
+            }
             if (idBill == -1)
             {
                 BillDAO.Instance.InsertBill(table.ID);
                 BillinfoDAO.Instance.InsertBillinfo(BillDAO.Instance.GetMaxIDBill(), foodID, Count);
             }
-            else
+            else 
             {
                 BillinfoDAO.Instance.InsertBillinfo(idBill, foodID, Count);
             }
             ShowBill(table.ID);
             LoadTable();
         }
-        //public bool ThemMon(int idbill, int foodid, int somon, int idtable)
-        //{
-        //    Table table = lsWMonAn.Tag as Table;
-        //    if (table == null)
-        //    {
-        //        MessageBox.Show("Mời chọn bàn");
-        //        throw new InvalidOperationException("Chưa chọn bạn");
-        //    }
-        //    int idBill = idbill;
-        //    int foodID = foodid;
-        //    int Count = somon;
-        //    if (idBill == -1)
-        //    {
-        //        BillDAO.Instance.InsertBill(idtable);
-        //        BillinfoDAO.Instance.InsertBillinfo(BillDAO.Instance.GetMaxIDBill(), foodID, Count);
-        //        return true;
-        //    }
-        //    else
-        //    {
-        //        BillinfoDAO.Instance.InsertBillinfo(idBill, foodID, Count);
-        //        return true;
-        //    }
-        //    return false;
-        //}
+        public bool ThemMon(int idbill, int foodid,int idtable, int somon)
+        {
+            {
+                if (idtable < 0)
+                {
+                    return false;
+                }
+                if (somon <= 0)
+                {
+                    return false;
+                }
+                int idBill = idbill;
+                int foodID = foodid;
+                int Count = somon;
+                if (idBill == -1)
+                {
+                    BillDAO.Instance.InsertBill(idtable);
+                    //BillinfoDAO.Instance.InsertBillinfo(BillDAO.Instance.GetMaxIDBill(), foodID, Count);
+                    return true;
+                }
+                else
+                {
+                    //BillinfoDAO.Instance.InsertBillinfo(idBill, foodID, Count);
+                    return true;
+                }
+            }
+            return false;
+        }
         private void btnThanhToan_Click(object sender, EventArgs e)
         {
                 Table table = lsWMonAn.Tag as Table;
@@ -248,23 +257,6 @@ namespace Dangnhap
         }
         #endregion
 
-        public double GiamGia(int giagiam, double tongTien)
-        {
-            int discount = giagiam;
-            double totalPrice = tongTien;
-            double final = totalPrice - (totalPrice / 100) * discount;
-            if (discount > 100 || discount < 0)
-            {
-                throw new InvalidOperationException("sai định dạng");
-            }
-            else
-            {
-                final = final * 1000;
-                return final;
-            }
-        }
-   
-       
 
         private void btnChuyenBan_Click(object sender, EventArgs e)
         {
