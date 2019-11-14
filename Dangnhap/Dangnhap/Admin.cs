@@ -199,7 +199,27 @@ namespace Dangnhap
                 MessageBox.Show("Có lỗi khi sửa");
             }
         }
-
+        public bool sua(string Ten,int loai,float Gia,int ID)
+        {
+            string name = Ten;
+            int categoryID = loai;
+            float price = Gia;
+            int id = ID;
+            if (FoodDAO.Instance.UpdateFood(id, name, categoryID, price))
+            {
+                LoadListFood();
+                if (updateFood != null)
+                {
+                    updateFood(this, new EventArgs());
+                }
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+         
+        }
         private void btnXoa_Click(object sender, EventArgs e)
         {
             
@@ -216,6 +236,23 @@ namespace Dangnhap
             else
             {
                 MessageBox.Show("Có lỗi khi Xóa");
+            }
+        }
+        public bool xoa(int iD)
+        {
+            int id = iD;
+            if (FoodDAO.Instance.DeleteFood(id))
+            {
+                LoadListFood();
+                if (deleteFood != null)
+                {
+                    deleteFood(this, new EventArgs());
+                }
+                return true;
+            }
+            else
+            {
+                return false;
             }
         }
         private event EventHandler insertFood;

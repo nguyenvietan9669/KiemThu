@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="3f88d197-134b-42c7-97da-899968a6916e" name="Dell@DESKTOP-LTNHK23 2019-11-14 10:04:54" runUser="DESKTOP-LTNHK23\Dell" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="cea33156-e72c-4d1b-a57b-eb1a5b3c21c1">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Dell_DESKTOP-LTNHK23 2019-11-14 10_04_54">
+      <DeploymentItem filename="C:\Users\Dell\Desktop\Dangnhap\Dangnhap\bin\Debug\Dangnhap.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2019-11-14T10:04:54.1257899+07:00" queuing="2019-11-14T10:04:54.1465543+07:00" start="2019-11-14T10:04:54.1515461+07:00" finish="2019-11-14T10:04:54.5847902+07:00" />
+  <ResultSummary outcome="Warning">
+    <Counters total="2" executed="2" passed="2" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="DESKTOP-LTNHK23" outcome="Warning" timestamp="2019-11-14T10:04:54.1465543+07:00">
+        <Text>Deployment is currently disabled. The deployment item 'testPM\testsua.csv' on test 'testPM.Test_Sua.Testsua' was not deployed.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Testsua" storage="c:\users\dell\desktop\dangnhap\testpm\bin\debug\testpm.dll" id="582e6a3f-58c7-92d4-9551-1e46aed3632b">
+      <DeploymentItems>
+        <DeploymentItem filename="testPM\testsua.csv" />
+      </DeploymentItems>
+      <Execution id="0e12b003-be2f-47dc-a7c0-047502d127b2" />
+      <TestMethod codeBase="C:/Users/Dell/Desktop/Dangnhap/testPM/bin/Debug/testPM.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="testPM.Test_Sua, testPM, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Testsua" />
+      <DataSource connectionString="|DataDirectory|\testsua.csv" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.CSV" tableName="testsua#csv" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="582e6a3f-58c7-92d4-9551-1e46aed3632b" executionId="0e12b003-be2f-47dc-a7c0-047502d127b2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="0e12b003-be2f-47dc-a7c0-047502d127b2" testId="582e6a3f-58c7-92d4-9551-1e46aed3632b" testName="Testsua" computerName="DESKTOP-LTNHK23" duration="00:00:00.1984187" startTime="2019-11-14T10:04:54.1585613+07:00" endTime="2019-11-14T10:04:54.5664284+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0e12b003-be2f-47dc-a7c0-047502d127b2" resultType="DataDrivenTest">
+      <Counters error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="1" completed="0" inProgress="0" pending="0" />
+      <InnerResults>
+        <UnitTestResult executionId="eb348c33-e9a9-4ceb-b062-99230cebd88d" parentExecutionId="0e12b003-be2f-47dc-a7c0-047502d127b2" testId="582e6a3f-58c7-92d4-9551-1e46aed3632b" testName="Testsua" computerName="DESKTOP-LTNHK23" duration="00:00:00.0851374" startTime="2019-11-14T10:04:54.4686910+07:00" endTime="2019-11-14T10:04:54.5574311+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0e12b003-be2f-47dc-a7c0-047502d127b2" dataRowInfo="0" resultType="DataDrivenDataRow" />
+      </InnerResults>
+    </UnitTestResult>
+  </Results>
+</TestRun>

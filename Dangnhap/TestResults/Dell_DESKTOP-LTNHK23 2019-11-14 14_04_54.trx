@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="fe30ad41-378d-4044-b846-41bfc604341a" name="Dell@DESKTOP-LTNHK23 2019-11-14 14:04:54" runUser="DESKTOP-LTNHK23\Dell" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="cea33156-e72c-4d1b-a57b-eb1a5b3c21c1">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Dell_DESKTOP-LTNHK23 2019-11-14 14_04_54">
+      <DeploymentItem filename="C:\Users\Dell\Desktop\Dangnhap\Dangnhap\bin\Debug\Dangnhap.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2019-11-14T14:04:54.5295518+07:00" queuing="2019-11-14T14:04:55.5752191+07:00" start="2019-11-14T14:04:55.6801857+07:00" finish="2019-11-14T14:04:56.9137918+07:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="2" executed="2" error="0" failed="2" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="DESKTOP-LTNHK23" outcome="Warning" timestamp="2019-11-14T14:04:55.0313929+07:00">
+        <Text>Deployment is currently disabled. The deployment item 'testPM\testXoa.csv' on test 'testPM.Test_Xoa.Testxoa' was not deployed.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Testxoa" storage="c:\users\dell\desktop\dangnhap\testpm\bin\debug\testpm.dll" id="764f383b-c699-f502-7ad3-0926bd1b950d">
+      <DeploymentItems>
+        <DeploymentItem filename="testPM\testXoa.csv" />
+      </DeploymentItems>
+      <Execution id="cfa360c2-e262-4cb0-8b38-eeaa18febbfe" />
+      <TestMethod codeBase="C:/Users/Dell/Desktop/Dangnhap/testPM/bin/Debug/testPM.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="testPM.Test_Xoa, testPM, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Testxoa" />
+      <DataSource connectionString="|DataDirectory|\testXoa.csv" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.CSV" tableName="testXoa#csv" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="764f383b-c699-f502-7ad3-0926bd1b950d" executionId="cfa360c2-e262-4cb0-8b38-eeaa18febbfe" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="cfa360c2-e262-4cb0-8b38-eeaa18febbfe" testId="764f383b-c699-f502-7ad3-0926bd1b950d" testName="Testxoa" computerName="DESKTOP-LTNHK23" duration="00:00:00.6342425" startTime="2019-11-14T14:04:55.7161739+07:00" endTime="2019-11-14T14:04:56.8618093+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cfa360c2-e262-4cb0-8b38-eeaa18febbfe" resultType="DataDrivenTest">
+      <Counters error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+      <InnerResults>
+        <UnitTestResult executionId="54512109-1b49-4846-a7ec-69a4e49509c7" parentExecutionId="cfa360c2-e262-4cb0-8b38-eeaa18febbfe" testId="764f383b-c699-f502-7ad3-0926bd1b950d" testName="Testxoa" computerName="DESKTOP-LTNHK23" duration="00:00:00.3796006" startTime="2019-11-14T14:04:56.4629358+07:00" endTime="2019-11-14T14:04:56.8478122+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cfa360c2-e262-4cb0-8b38-eeaa18febbfe" dataRowInfo="0" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Assert.AreEqual failed. Expected:&lt;True&gt;. Actual:&lt;False&gt;. </Message>
+              <StackTrace>   at testPM.Test_Xoa.Testxoa() in C:\Users\Dell\Desktop\Dangnhap\testPM\Test_Xoa.cs:line 24
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+      </InnerResults>
+    </UnitTestResult>
+  </Results>
+</TestRun>

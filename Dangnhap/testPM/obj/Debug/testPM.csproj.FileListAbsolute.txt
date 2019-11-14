@@ -10,3 +10,5 @@ C:\Users\Dell\Desktop\Dangnhap\testPM\bin\Debug\Test_Login.cs
 C:\Users\Dell\Desktop\Dangnhap\testPM\bin\Debug\testThanhToan.csv
 C:\Users\Dell\Desktop\Dangnhap\testPM\bin\Debug\TestThemMon.csv
 C:\Users\Dell\Desktop\Dangnhap\testPM\bin\Debug\testThem.csv
+C:\Users\Dell\Desktop\Dangnhap\testPM\bin\Debug\testsua.csv
+C:\Users\Dell\Desktop\Dangnhap\testPM\bin\Debug\testXoa.csv
