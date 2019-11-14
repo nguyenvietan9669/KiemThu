@@ -262,12 +262,24 @@ namespace Dangnhap
         {
            
             int table1 = (lsWMonAn.Tag as Table).ID;
-            int tbale2 = (cbChuyenBan.SelectedItem as Table).ID;
+            int table2 = (cbChuyenBan.SelectedItem as Table).ID;
             if (MessageBox.Show(String.Format("Bạn có thực sự muốn chuyển từ {0} qua {1}", (lsWMonAn.Tag as Table).Name, (cbChuyenBan.SelectedItem as Table).Name), "Thông báo", MessageBoxButtons.OKCancel) == System.Windows.Forms.DialogResult.OK)
             {
-                TableDAO.Instance.SwitchTable(table1, tbale2);
+                TableDAO.Instance.SwitchTable(table1, table2);
                 LoadTable();
             }
+        }
+        public bool thuchuyen(int ban1,int ban2)
+        {
+            int table1 = ban1;
+            int table2 = ban2;
+            if (table1 != null && table2 != null)
+            {
+                TableDAO.Instance.SwitchTable(table1, table2);
+                //LoadTable();
+                return true;
+            }
+            return false;
         }
 
         void ad_InsertFood(object sender, EventArgs e)

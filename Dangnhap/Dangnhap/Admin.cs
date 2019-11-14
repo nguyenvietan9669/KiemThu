@@ -241,6 +241,10 @@ namespace Dangnhap
         public bool xoa(int iD)
         {
             int id = iD;
+            if(id == null || id == ' ')
+            {
+                return false;
+            }
             if (FoodDAO.Instance.DeleteFood(id))
             {
                 LoadListFood();

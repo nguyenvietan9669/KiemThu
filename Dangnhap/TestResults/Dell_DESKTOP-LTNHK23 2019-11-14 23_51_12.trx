@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="ffd725c3-31c0-4166-9f4e-9477ce69bd31" name="Dell@DESKTOP-LTNHK23 2019-11-14 23:51:12" runUser="DESKTOP-LTNHK23\Dell" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="cea33156-e72c-4d1b-a57b-eb1a5b3c21c1">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Dell_DESKTOP-LTNHK23 2019-11-14 23_51_12">
+      <DeploymentItem filename="C:\Users\Dell\Desktop\Dangnhap\Dangnhap\bin\Debug\Dangnhap.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2019-11-14T23:51:12.8423161+07:00" queuing="2019-11-14T23:51:12.8552969+07:00" start="2019-11-14T23:51:12.8602952+07:00" finish="2019-11-14T23:51:13.2342590+07:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="2" executed="2" error="0" failed="2" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="DESKTOP-LTNHK23" outcome="Warning" timestamp="2019-11-14T23:51:12.8552969+07:00">
+        <Text>Deployment is currently disabled. The deployment item 'testPM\testchuyenban.csv' on test 'testPM.Test_Chuyenban.testchuyenban' was not deployed.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="testchuyenban" storage="c:\users\dell\desktop\dangnhap\testpm\bin\debug\testpm.dll" id="cdc9cf75-63ba-fe53-246e-69fbea83d298">
+      <DeploymentItems>
+        <DeploymentItem filename="testPM\testchuyenban.csv" />
+      </DeploymentItems>
+      <Execution id="eaee7d69-d3ff-4437-a5b2-c8dd1a5c657b" />
+      <TestMethod codeBase="C:/Users/Dell/Desktop/Dangnhap/testPM/bin/Debug/testPM.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="testPM.Test_Chuyenban, testPM, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="testchuyenban" />
+      <DataSource connectionString="|DataDirectory|\testchuyenban.csv" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.CSV" tableName="testchuyenban#csv" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="cdc9cf75-63ba-fe53-246e-69fbea83d298" executionId="eaee7d69-d3ff-4437-a5b2-c8dd1a5c657b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="eaee7d69-d3ff-4437-a5b2-c8dd1a5c657b" testId="cdc9cf75-63ba-fe53-246e-69fbea83d298" testName="testchuyenban" computerName="DESKTOP-LTNHK23" duration="00:00:00.1419984" startTime="2019-11-14T23:51:12.8724276+07:00" endTime="2019-11-14T23:51:13.2162641+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="eaee7d69-d3ff-4437-a5b2-c8dd1a5c657b" resultType="DataDrivenTest">
+      <Counters error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+      <InnerResults>
+        <UnitTestResult executionId="82dd595b-d90f-443b-9509-94f5eb1e65c9" parentExecutionId="eaee7d69-d3ff-4437-a5b2-c8dd1a5c657b" testId="cdc9cf75-63ba-fe53-246e-69fbea83d298" testName="testchuyenban" computerName="DESKTOP-LTNHK23" duration="00:00:00.0247924" startTime="2019-11-14T23:51:13.1822756+07:00" endTime="2019-11-14T23:51:13.2102660+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="eaee7d69-d3ff-4437-a5b2-c8dd1a5c657b" dataRowInfo="0" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Test method testPM.Test_Chuyenban.testchuyenban threw exception: 
+System.FormatException: Input string was not in a correct format.</Message>
+              <StackTrace>    at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer&amp; number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at testPM.Test_Chuyenban.testchuyenban() in C:\Users\Dell\Desktop\Dangnhap\testPM\Test_Chuyenban.cs:line 21
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+      </InnerResults>
+    </UnitTestResult>
+  </Results>
+</TestRun>

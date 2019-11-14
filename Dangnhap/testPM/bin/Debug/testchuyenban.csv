@@ -1,0 +1,5 @@
+﻿ban1,ban2,expected
+1,2,true
+2,3,true
+,3,false
+2,,false
