@@ -23,21 +23,46 @@ namespace Dangnhap
 
         private void btnDangNhap_Click(object sender, EventArgs e)
         {
-
             userName = txtTen.Text;
             passWord = txtpass.Text;
-            if (Login(userName,passWord))
+            if (userName.Contains(" ")|| passWord.Contains(" "))
             {
-                Account loginAccount = AccountDAO.Instance.GetAccountByUserName(userName);
-                QuanLy ql = new QuanLy(loginAccount);
-                this.Hide();
-                ql.ShowDialog();
-                this.Show();
+                MessageBox.Show("có khoảng trắng trong tên tài khoản hoặc mật khẩu");
+                return;
             }
-            else
+            if (userName.Contains("!") || userName.Contains("@") || userName.Contains("#") || userName.Contains("$")
+                || userName.Contains("%") || userName.Contains("^") || userName.Contains("&") || userName.Contains("*")
+                || userName.Contains("(") || userName.Contains(")") || userName.Contains("_") || userName.Contains("+")
+                || userName.Contains("-") || userName.Contains("+") || passWord.Contains("!") || passWord.Contains("@") || passWord.Contains("#") || passWord.Contains("$")
+                || passWord.Contains("%") || passWord.Contains("^") || passWord.Contains("&") || passWord.Contains("*")
+                || passWord.Contains("(") || passWord.Contains(")") || passWord.Contains("_") || passWord.Contains("+")
+                || passWord.Contains("-") || passWord.Contains("+"))
             {
-                MessageBox.Show("Sai tên tài khoản hoặc mật khẩu");
+                MessageBox.Show("Có kí tự đặc biệt trong tên tài khoản hoặc mật khẩu");
+                return;
             }
+            if (userName.Length > 100 || passWord.Length > 100)
+            {
+                MessageBox.Show("Tên tài khoản hoặc mật khẩu quá dài");
+                return;
+            }
+            if (userName.Length <= 0 || passWord.Length <= 0)
+            {
+                MessageBox.Show("Chưa điền tên tài khoản, mật khẩu !");
+                return;
+            }
+                if (Login(userName,passWord))
+                {
+                    Account loginAccount = AccountDAO.Instance.GetAccountByUserName(userName);
+                    QuanLy ql = new QuanLy(loginAccount);
+                    this.Hide();
+                    ql.ShowDialog();
+                    this.Show();
+                }
+                    else
+                {
+                    MessageBox.Show("Sai tên tài khoản hoặc mật khẩu");
+                }
         }
         bool Login(string userName, string passWord)
         {

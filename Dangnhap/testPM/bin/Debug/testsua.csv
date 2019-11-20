@@ -1,7 +1,7 @@
 ﻿ten,loai,gia,id,expected
-abc,2,150000,154,true
-ca,3,200000,155,true
-,1,123123,156,true
+bò,2,150000,188,true
+heo,3,200000,189,true
+,1,123123,190,true
 ghe,,123618,157,true
 heo,4,,158,true
 bo,5,12345,,true

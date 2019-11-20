@@ -1,0 +1,325 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="4670bf7d-e13e-4bef-81bb-14e98c8ed276" name="Dell@DESKTOP-LTNHK23 2019-11-18 20:24:43" runUser="DESKTOP-LTNHK23\Dell" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="cea33156-e72c-4d1b-a57b-eb1a5b3c21c1">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Dell_DESKTOP-LTNHK23 2019-11-18 20_24_43">
+      <DeploymentItem filename="C:\Users\Dell\Desktop\Dangnhap\Dangnhap\bin\Debug\Dangnhap.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2019-11-18T20:24:43.6906701+07:00" queuing="2019-11-18T20:24:43.7067388+07:00" start="2019-11-18T20:24:43.7127520+07:00" finish="2019-11-18T20:24:45.2493037+07:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="51" executed="51" passed="35" error="0" failed="16" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="testsqlfalse" storage="c:\users\dell\desktop\dangnhap\testpm\bin\debug\testpm.dll" id="4e4a81b9-f4aa-2eb2-2505-66ee72ce6d6d">
+      <Execution id="714984f3-4ae8-46ba-a770-034ba7f6f9ef" />
+      <TestMethod codeBase="C:/Users/Dell/Desktop/Dangnhap/testPM/bin/Debug/testPM.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="testPM.Test_SQL, testPM, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="testsqlfalse" />
+    </UnitTest>
+    <UnitTest name="testThem" storage="c:\users\dell\desktop\dangnhap\testpm\bin\debug\testpm.dll" id="84b817a3-d9ea-4ee7-4bce-6233ff1a22ec">
+      <DeploymentItems>
+        <DeploymentItem filename="testPM\testThem.csv" />
+      </DeploymentItems>
+      <Execution id="67bccab4-21c1-4854-a75f-ef30e66ac66a" />
+      <TestMethod codeBase="C:/Users/Dell/Desktop/Dangnhap/testPM/bin/Debug/testPM.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="testPM.Test_Them, testPM, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="testThem" />
+      <DataSource connectionString="|DataDirectory|\testThem.csv" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.CSV" tableName="testThem#csv" />
+    </UnitTest>
+    <UnitTest name="test_ThanhToan" storage="c:\users\dell\desktop\dangnhap\testpm\bin\debug\testpm.dll" id="2169934a-9f13-ee0b-caac-0e95b5225d2b">
+      <DeploymentItems>
+        <DeploymentItem filename="testPM\testThanhToan.csv" />
+      </DeploymentItems>
+      <Execution id="926d62dc-384a-4416-915a-3727f9360986" />
+      <TestMethod codeBase="C:/Users/Dell/Desktop/Dangnhap/testPM/bin/Debug/testPM.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="testPM.Test_ThanhToan, testPM, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="test_ThanhToan" />
+      <DataSource connectionString="|DataDirectory|\testThanhToan.csv" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.CSV" tableName="testThanhToan#csv" />
+    </UnitTest>
+    <UnitTest name="TestCNLogin" storage="c:\users\dell\desktop\dangnhap\testpm\bin\debug\testpm.dll" id="e7975907-abd7-c724-e54c-c8600f564d67">
+      <DeploymentItems>
+        <DeploymentItem filename="testPM\testLogin.csv" />
+      </DeploymentItems>
+      <Execution id="92968374-317a-407d-a9ef-fabfb9cdf23a" />
+      <TestMethod codeBase="C:/Users/Dell/Desktop/Dangnhap/testPM/bin/Debug/testPM.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="testPM.TestLogin, testPM, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestCNLogin" />
+      <DataSource connectionString="|DataDirectory|\testLogin.csv" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.CSV" tableName="testLogin#csv" />
+    </UnitTest>
+    <UnitTest name="testchuyenban" storage="c:\users\dell\desktop\dangnhap\testpm\bin\debug\testpm.dll" id="cdc9cf75-63ba-fe53-246e-69fbea83d298">
+      <DeploymentItems>
+        <DeploymentItem filename="testPM\testchuyenban.csv" />
+      </DeploymentItems>
+      <Execution id="43bbafb6-1d32-41f3-85a0-362df8f30018" />
+      <TestMethod codeBase="C:/Users/Dell/Desktop/Dangnhap/testPM/bin/Debug/testPM.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="testPM.Test_Chuyenban, testPM, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="testchuyenban" />
+      <DataSource connectionString="|DataDirectory|\testchuyenban.csv" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.CSV" tableName="testchuyenban#csv" />
+    </UnitTest>
+    <UnitTest name="Testsua" storage="c:\users\dell\desktop\dangnhap\testpm\bin\debug\testpm.dll" id="582e6a3f-58c7-92d4-9551-1e46aed3632b">
+      <DeploymentItems>
+        <DeploymentItem filename="testPM\testsua.csv" />
+      </DeploymentItems>
+      <Execution id="38178c28-b1c3-40d3-96c8-7f5da6ff07f4" />
+      <TestMethod codeBase="C:/Users/Dell/Desktop/Dangnhap/testPM/bin/Debug/testPM.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="testPM.Test_Sua, testPM, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Testsua" />
+      <DataSource connectionString="|DataDirectory|\testsua.csv" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.CSV" tableName="testsua#csv" />
+    </UnitTest>
+    <UnitTest name="testThemMon" storage="c:\users\dell\desktop\dangnhap\testpm\bin\debug\testpm.dll" id="d126ba14-7fa7-4e78-7434-4a28ba2ec146">
+      <DeploymentItems>
+        <DeploymentItem filename="testPM\TestThemMon.csv" />
+      </DeploymentItems>
+      <Execution id="f7988c37-e4dc-4b07-a4a9-1565478bf6af" />
+      <TestMethod codeBase="C:/Users/Dell/Desktop/Dangnhap/testPM/bin/Debug/testPM.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="testPM.Test_ThemMon, testPM, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="testThemMon" />
+      <DataSource connectionString="|DataDirectory|\TestThemMon.csv" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.CSV" tableName="TestThemMon#csv" />
+    </UnitTest>
+    <UnitTest name="testsql" storage="c:\users\dell\desktop\dangnhap\testpm\bin\debug\testpm.dll" id="666b100b-0389-6f14-603f-27dd25f0b641">
+      <Execution id="66a1ee3e-5cd2-41d2-b7aa-d9a392de6503" />
+      <TestMethod codeBase="C:/Users/Dell/Desktop/Dangnhap/testPM/bin/Debug/testPM.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="testPM.Test_SQL, testPM, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="testsql" />
+    </UnitTest>
+    <UnitTest name="Testxoa" storage="c:\users\dell\desktop\dangnhap\testpm\bin\debug\testpm.dll" id="764f383b-c699-f502-7ad3-0926bd1b950d">
+      <DeploymentItems>
+        <DeploymentItem filename="testPM\testXoa.csv" />
+      </DeploymentItems>
+      <Execution id="60ba7dd6-3cf5-4709-bd63-ded71524f4e5" />
+      <TestMethod codeBase="C:/Users/Dell/Desktop/Dangnhap/testPM/bin/Debug/testPM.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="testPM.Test_Xoa, testPM, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Testxoa" />
+      <DataSource connectionString="|DataDirectory|\testXoa.csv" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.CSV" tableName="testXoa#csv" />
+    </UnitTest>
+    <UnitTest name="testsqlthrow" storage="c:\users\dell\desktop\dangnhap\testpm\bin\debug\testpm.dll" id="3894354b-7814-f303-25d3-233ce030e021">
+      <Execution id="be6504f2-28b8-42e9-b8ee-0ce2684f5f8e" />
+      <TestMethod codeBase="C:/Users/Dell/Desktop/Dangnhap/testPM/bin/Debug/testPM.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="testPM.Test_SQL, testPM, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="testsqlthrow" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="2169934a-9f13-ee0b-caac-0e95b5225d2b" executionId="926d62dc-384a-4416-915a-3727f9360986" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3894354b-7814-f303-25d3-233ce030e021" executionId="be6504f2-28b8-42e9-b8ee-0ce2684f5f8e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4e4a81b9-f4aa-2eb2-2505-66ee72ce6d6d" executionId="714984f3-4ae8-46ba-a770-034ba7f6f9ef" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="582e6a3f-58c7-92d4-9551-1e46aed3632b" executionId="38178c28-b1c3-40d3-96c8-7f5da6ff07f4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="666b100b-0389-6f14-603f-27dd25f0b641" executionId="66a1ee3e-5cd2-41d2-b7aa-d9a392de6503" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="764f383b-c699-f502-7ad3-0926bd1b950d" executionId="60ba7dd6-3cf5-4709-bd63-ded71524f4e5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="84b817a3-d9ea-4ee7-4bce-6233ff1a22ec" executionId="67bccab4-21c1-4854-a75f-ef30e66ac66a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cdc9cf75-63ba-fe53-246e-69fbea83d298" executionId="43bbafb6-1d32-41f3-85a0-362df8f30018" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d126ba14-7fa7-4e78-7434-4a28ba2ec146" executionId="f7988c37-e4dc-4b07-a4a9-1565478bf6af" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e7975907-abd7-c724-e54c-c8600f564d67" executionId="92968374-317a-407d-a9ef-fabfb9cdf23a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="926d62dc-384a-4416-915a-3727f9360986" testId="2169934a-9f13-ee0b-caac-0e95b5225d2b" testName="test_ThanhToan" computerName="DESKTOP-LTNHK23" duration="00:00:00.2252726" startTime="2019-11-18T20:24:43.7187396+07:00" endTime="2019-11-18T20:24:44.1748361+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="926d62dc-384a-4416-915a-3727f9360986" resultType="DataDrivenTest">
+      <Counters error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="5" completed="0" inProgress="0" pending="0" />
+      <InnerResults>
+        <UnitTestResult executionId="6f48a0df-8b48-4918-87f2-a7e3f22d240b" parentExecutionId="926d62dc-384a-4416-915a-3727f9360986" testId="2169934a-9f13-ee0b-caac-0e95b5225d2b" testName="test_ThanhToan" computerName="DESKTOP-LTNHK23" duration="00:00:00.0758627" startTime="2019-11-18T20:24:44.0764758+07:00" endTime="2019-11-18T20:24:44.1578421+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="926d62dc-384a-4416-915a-3727f9360986" dataRowInfo="0" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="5cc06edd-f70d-4326-9df4-9583f89ad0a7" parentExecutionId="926d62dc-384a-4416-915a-3727f9360986" testId="2169934a-9f13-ee0b-caac-0e95b5225d2b" testName="test_ThanhToan" computerName="DESKTOP-LTNHK23" duration="00:00:00.0006164" startTime="2019-11-18T20:24:44.1578421+07:00" endTime="2019-11-18T20:24:44.1588498+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="926d62dc-384a-4416-915a-3727f9360986" dataRowInfo="1" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="3e540b64-9689-44a2-badc-36e0a149395a" parentExecutionId="926d62dc-384a-4416-915a-3727f9360986" testId="2169934a-9f13-ee0b-caac-0e95b5225d2b" testName="test_ThanhToan" computerName="DESKTOP-LTNHK23" duration="00:00:00.0000214" startTime="2019-11-18T20:24:44.1588498+07:00" endTime="2019-11-18T20:24:44.1588498+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="926d62dc-384a-4416-915a-3727f9360986" dataRowInfo="2" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="402e467c-4a37-4400-bbe1-352348549854" parentExecutionId="926d62dc-384a-4416-915a-3727f9360986" testId="2169934a-9f13-ee0b-caac-0e95b5225d2b" testName="test_ThanhToan" computerName="DESKTOP-LTNHK23" duration="00:00:00.0000103" startTime="2019-11-18T20:24:44.1588498+07:00" endTime="2019-11-18T20:24:44.1588498+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="926d62dc-384a-4416-915a-3727f9360986" dataRowInfo="3" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="12ce4b91-0645-4f18-9c60-88bc2c0f540b" parentExecutionId="926d62dc-384a-4416-915a-3727f9360986" testId="2169934a-9f13-ee0b-caac-0e95b5225d2b" testName="test_ThanhToan" computerName="DESKTOP-LTNHK23" duration="00:00:00.0000099" startTime="2019-11-18T20:24:44.1588498+07:00" endTime="2019-11-18T20:24:44.1588498+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="926d62dc-384a-4416-915a-3727f9360986" dataRowInfo="4" resultType="DataDrivenDataRow" />
+      </InnerResults>
+    </UnitTestResult>
+    <UnitTestResult executionId="be6504f2-28b8-42e9-b8ee-0ce2684f5f8e" testId="3894354b-7814-f303-25d3-233ce030e021" testName="testsqlthrow" computerName="DESKTOP-LTNHK23" duration="00:00:00.0136700" startTime="2019-11-18T20:24:44.1808363+07:00" endTime="2019-11-18T20:24:44.1988134+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="be6504f2-28b8-42e9-b8ee-0ce2684f5f8e">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method testPM.Test_SQL.testsqlthrow threw exception: 
+System.Data.SqlClient.SqlException: Could not find stored procedure 'usp'.</Message>
+          <StackTrace>    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean&amp; dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task&amp; task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task&amp; task, Boolean&amp; usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at Dangnhap.DAO.dataProvider.ExecuteQuery(String query, Object[] parameter) in C:\Users\Dell\Desktop\Dangnhap\Dangnhap\DAO\dataProvider.cs:line 46
+   at testPM.Test_SQL.testsqlthrow() in C:\Users\Dell\Desktop\Dangnhap\testPM\Test_SQL.cs:line 42
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="714984f3-4ae8-46ba-a770-034ba7f6f9ef" testId="4e4a81b9-f4aa-2eb2-2505-66ee72ce6d6d" testName="testsqlfalse" computerName="DESKTOP-LTNHK23" duration="00:00:00.0033234" startTime="2019-11-18T20:24:44.2038250+07:00" endTime="2019-11-18T20:24:44.2108100+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="714984f3-4ae8-46ba-a770-034ba7f6f9ef">
+    </UnitTestResult>
+    <UnitTestResult executionId="38178c28-b1c3-40d3-96c8-7f5da6ff07f4" testId="582e6a3f-58c7-92d4-9551-1e46aed3632b" testName="Testsua" computerName="DESKTOP-LTNHK23" duration="00:00:00.1783347" startTime="2019-11-18T20:24:44.2168236+07:00" endTime="2019-11-18T20:24:44.4046731+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="38178c28-b1c3-40d3-96c8-7f5da6ff07f4" resultType="DataDrivenTest">
+      <Counters error="0" failed="6" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+      <InnerResults>
+        <UnitTestResult executionId="d04e6db0-4ed1-4d74-8875-e55bda40c339" parentExecutionId="38178c28-b1c3-40d3-96c8-7f5da6ff07f4" testId="582e6a3f-58c7-92d4-9551-1e46aed3632b" testName="Testsua" computerName="DESKTOP-LTNHK23" duration="00:00:00.0395938" startTime="2019-11-18T20:24:44.3228375+07:00" endTime="2019-11-18T20:24:44.3626606+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="38178c28-b1c3-40d3-96c8-7f5da6ff07f4" dataRowInfo="0" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Assert.AreEqual failed. Expected:&lt;True&gt;. Actual:&lt;False&gt;. </Message>
+              <StackTrace>   at testPM.Test_Sua.Testsua() in C:\Users\Dell\Desktop\Dangnhap\testPM\Test_Sua.cs:line 28
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="a32d2db9-6e2d-41b0-bfc5-c8e6dadcc3a9" parentExecutionId="38178c28-b1c3-40d3-96c8-7f5da6ff07f4" testId="582e6a3f-58c7-92d4-9551-1e46aed3632b" testName="Testsua" computerName="DESKTOP-LTNHK23" duration="00:00:00.0081607" startTime="2019-11-18T20:24:44.3626606+07:00" endTime="2019-11-18T20:24:44.3706593+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="38178c28-b1c3-40d3-96c8-7f5da6ff07f4" dataRowInfo="1" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Assert.AreEqual failed. Expected:&lt;True&gt;. Actual:&lt;False&gt;. </Message>
+              <StackTrace>   at testPM.Test_Sua.Testsua() in C:\Users\Dell\Desktop\Dangnhap\testPM\Test_Sua.cs:line 28
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="e870cc4c-c909-4091-a637-65be2e928ffd" parentExecutionId="38178c28-b1c3-40d3-96c8-7f5da6ff07f4" testId="582e6a3f-58c7-92d4-9551-1e46aed3632b" testName="Testsua" computerName="DESKTOP-LTNHK23" duration="00:00:00.0094474" startTime="2019-11-18T20:24:44.3706593+07:00" endTime="2019-11-18T20:24:44.3796624+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="38178c28-b1c3-40d3-96c8-7f5da6ff07f4" dataRowInfo="2" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Assert.AreEqual failed. Expected:&lt;True&gt;. Actual:&lt;False&gt;. </Message>
+              <StackTrace>   at testPM.Test_Sua.Testsua() in C:\Users\Dell\Desktop\Dangnhap\testPM\Test_Sua.cs:line 28
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="eeb6fa19-9cbf-4ef4-a407-a4951c62fefb" parentExecutionId="38178c28-b1c3-40d3-96c8-7f5da6ff07f4" testId="582e6a3f-58c7-92d4-9551-1e46aed3632b" testName="Testsua" computerName="DESKTOP-LTNHK23" duration="00:00:00.0012524" startTime="2019-11-18T20:24:44.3796624+07:00" endTime="2019-11-18T20:24:44.3806620+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="38178c28-b1c3-40d3-96c8-7f5da6ff07f4" dataRowInfo="3" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Test method testPM.Test_Sua.Testsua threw exception: 
+System.FormatException: Input string was not in a correct format.</Message>
+              <StackTrace>    at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer&amp; number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at testPM.Test_Sua.Testsua() in C:\Users\Dell\Desktop\Dangnhap\testPM\Test_Sua.cs:line 22
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="0c187f93-9213-48d7-94c0-9095fb8b9c8c" parentExecutionId="38178c28-b1c3-40d3-96c8-7f5da6ff07f4" testId="582e6a3f-58c7-92d4-9551-1e46aed3632b" testName="Testsua" computerName="DESKTOP-LTNHK23" duration="00:00:00.0148965" startTime="2019-11-18T20:24:44.3806620+07:00" endTime="2019-11-18T20:24:44.3956725+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="38178c28-b1c3-40d3-96c8-7f5da6ff07f4" dataRowInfo="4" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Test method testPM.Test_Sua.Testsua threw exception: 
+System.FormatException: Input string was not in a correct format.</Message>
+              <StackTrace>    at System.Number.ParseSingle(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Single.Parse(String s)
+   at testPM.Test_Sua.Testsua() in C:\Users\Dell\Desktop\Dangnhap\testPM\Test_Sua.cs:line 23
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="14d495a0-1931-454c-915e-61e283045821" parentExecutionId="38178c28-b1c3-40d3-96c8-7f5da6ff07f4" testId="582e6a3f-58c7-92d4-9551-1e46aed3632b" testName="Testsua" computerName="DESKTOP-LTNHK23" duration="00:00:00.0012762" startTime="2019-11-18T20:24:44.3956725+07:00" endTime="2019-11-18T20:24:44.3976755+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="38178c28-b1c3-40d3-96c8-7f5da6ff07f4" dataRowInfo="5" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Test method testPM.Test_Sua.Testsua threw exception: 
+System.FormatException: Input string was not in a correct format.</Message>
+              <StackTrace>    at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer&amp; number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at testPM.Test_Sua.Testsua() in C:\Users\Dell\Desktop\Dangnhap\testPM\Test_Sua.cs:line 24
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+      </InnerResults>
+    </UnitTestResult>
+    <UnitTestResult executionId="66a1ee3e-5cd2-41d2-b7aa-d9a392de6503" testId="666b100b-0389-6f14-603f-27dd25f0b641" testName="testsql" computerName="DESKTOP-LTNHK23" duration="00:00:00.0014128" startTime="2019-11-18T20:24:44.4106522+07:00" endTime="2019-11-18T20:24:44.4156655+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="66a1ee3e-5cd2-41d2-b7aa-d9a392de6503">
+    </UnitTestResult>
+    <UnitTestResult executionId="60ba7dd6-3cf5-4709-bd63-ded71524f4e5" testId="764f383b-c699-f502-7ad3-0926bd1b950d" testName="Testxoa" computerName="DESKTOP-LTNHK23" duration="00:00:00.1707474" startTime="2019-11-18T20:24:44.4206498+07:00" endTime="2019-11-18T20:24:44.5990228+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="60ba7dd6-3cf5-4709-bd63-ded71524f4e5" resultType="DataDrivenTest">
+      <Counters error="0" failed="2" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="1" completed="0" inProgress="0" pending="0" />
+      <InnerResults>
+        <UnitTestResult executionId="7e6a3a2d-8d86-4d5c-8550-a0e3df94b96c" parentExecutionId="60ba7dd6-3cf5-4709-bd63-ded71524f4e5" testId="764f383b-c699-f502-7ad3-0926bd1b950d" testName="Testxoa" computerName="DESKTOP-LTNHK23" duration="00:00:00.0302039" startTime="2019-11-18T20:24:44.5540037+07:00" endTime="2019-11-18T20:24:44.5834624+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="60ba7dd6-3cf5-4709-bd63-ded71524f4e5" dataRowInfo="0" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Assert.AreEqual failed. Expected:&lt;True&gt;. Actual:&lt;False&gt;. </Message>
+              <StackTrace>   at testPM.Test_Xoa.Testxoa() in C:\Users\Dell\Desktop\Dangnhap\testPM\Test_Xoa.cs:line 24
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="a55f60fc-856f-4fc1-a24b-8b60c0cb7101" parentExecutionId="60ba7dd6-3cf5-4709-bd63-ded71524f4e5" testId="764f383b-c699-f502-7ad3-0926bd1b950d" testName="Testxoa" computerName="DESKTOP-LTNHK23" duration="00:00:00.0081626" startTime="2019-11-18T20:24:44.5834624+07:00" endTime="2019-11-18T20:24:44.5919993+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="60ba7dd6-3cf5-4709-bd63-ded71524f4e5" dataRowInfo="1" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="d84cfb75-73f2-45d1-9ddd-3eefebd7c162" parentExecutionId="60ba7dd6-3cf5-4709-bd63-ded71524f4e5" testId="764f383b-c699-f502-7ad3-0926bd1b950d" testName="Testxoa" computerName="DESKTOP-LTNHK23" duration="00:00:00.0015969" startTime="2019-11-18T20:24:44.5919993+07:00" endTime="2019-11-18T20:24:44.5940169+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="60ba7dd6-3cf5-4709-bd63-ded71524f4e5" dataRowInfo="2" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Test method testPM.Test_Xoa.Testxoa threw exception: 
+System.FormatException: Input string was not in a correct format.</Message>
+              <StackTrace>    at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer&amp; number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at testPM.Test_Xoa.Testxoa() in C:\Users\Dell\Desktop\Dangnhap\testPM\Test_Xoa.cs:line 20
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+      </InnerResults>
+    </UnitTestResult>
+    <UnitTestResult executionId="67bccab4-21c1-4854-a75f-ef30e66ac66a" testId="84b817a3-d9ea-4ee7-4bce-6233ff1a22ec" testName="testThem" computerName="DESKTOP-LTNHK23" duration="00:00:00.1383073" startTime="2019-11-18T20:24:44.6060002+07:00" endTime="2019-11-18T20:24:44.7519534+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="67bccab4-21c1-4854-a75f-ef30e66ac66a" resultType="DataDrivenTest">
+      <Counters error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="2" completed="0" inProgress="0" pending="0" />
+      <InnerResults>
+        <UnitTestResult executionId="75cd9fd8-4b96-4538-91fc-a8ab693fba66" parentExecutionId="67bccab4-21c1-4854-a75f-ef30e66ac66a" testId="84b817a3-d9ea-4ee7-4bce-6233ff1a22ec" testName="testThem" computerName="DESKTOP-LTNHK23" duration="00:00:00.0131398" startTime="2019-11-18T20:24:44.7219599+07:00" endTime="2019-11-18T20:24:44.7349556+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="67bccab4-21c1-4854-a75f-ef30e66ac66a" dataRowInfo="0" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="0abd6bbe-f3eb-4465-8c9c-bd7f3d5aec7a" parentExecutionId="67bccab4-21c1-4854-a75f-ef30e66ac66a" testId="84b817a3-d9ea-4ee7-4bce-6233ff1a22ec" testName="testThem" computerName="DESKTOP-LTNHK23" duration="00:00:00.0115719" startTime="2019-11-18T20:24:44.7349556+07:00" endTime="2019-11-18T20:24:44.7459536+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="67bccab4-21c1-4854-a75f-ef30e66ac66a" dataRowInfo="1" resultType="DataDrivenDataRow" />
+      </InnerResults>
+    </UnitTestResult>
+    <UnitTestResult executionId="43bbafb6-1d32-41f3-85a0-362df8f30018" testId="cdc9cf75-63ba-fe53-246e-69fbea83d298" testName="testchuyenban" computerName="DESKTOP-LTNHK23" duration="00:00:00.1582341" startTime="2019-11-18T20:24:44.7579647+07:00" endTime="2019-11-18T20:24:44.9251063+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="43bbafb6-1d32-41f3-85a0-362df8f30018" resultType="DataDrivenTest">
+      <Counters error="0" failed="2" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="2" completed="0" inProgress="0" pending="0" />
+      <InnerResults>
+        <UnitTestResult executionId="eb8d57b6-b3b1-4504-82bf-51e1fa62139b" parentExecutionId="43bbafb6-1d32-41f3-85a0-362df8f30018" testId="cdc9cf75-63ba-fe53-246e-69fbea83d298" testName="testchuyenban" computerName="DESKTOP-LTNHK23" duration="00:00:00.0291685" startTime="2019-11-18T20:24:44.8777388+07:00" endTime="2019-11-18T20:24:44.9066445+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="43bbafb6-1d32-41f3-85a0-362df8f30018" dataRowInfo="0" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="7ec8764d-a62d-4890-95c6-2f7a3fed74b5" parentExecutionId="43bbafb6-1d32-41f3-85a0-362df8f30018" testId="cdc9cf75-63ba-fe53-246e-69fbea83d298" testName="testchuyenban" computerName="DESKTOP-LTNHK23" duration="00:00:00.0080061" startTime="2019-11-18T20:24:44.9066445+07:00" endTime="2019-11-18T20:24:44.9151062+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="43bbafb6-1d32-41f3-85a0-362df8f30018" dataRowInfo="1" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="73594a68-8139-4d3c-a2bc-db8b8643cd7f" parentExecutionId="43bbafb6-1d32-41f3-85a0-362df8f30018" testId="cdc9cf75-63ba-fe53-246e-69fbea83d298" testName="testchuyenban" computerName="DESKTOP-LTNHK23" duration="00:00:00.0018153" startTime="2019-11-18T20:24:44.9151062+07:00" endTime="2019-11-18T20:24:44.9161094+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="43bbafb6-1d32-41f3-85a0-362df8f30018" dataRowInfo="2" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Test method testPM.Test_Chuyenban.testchuyenban threw exception: 
+System.FormatException: Input string was not in a correct format.</Message>
+              <StackTrace>    at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer&amp; number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at testPM.Test_Chuyenban.testchuyenban() in C:\Users\Dell\Desktop\Dangnhap\testPM\Test_Chuyenban.cs:line 21
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="59bfc8da-e098-4135-b977-73b9a670c890" parentExecutionId="43bbafb6-1d32-41f3-85a0-362df8f30018" testId="cdc9cf75-63ba-fe53-246e-69fbea83d298" testName="testchuyenban" computerName="DESKTOP-LTNHK23" duration="00:00:00.0013183" startTime="2019-11-18T20:24:44.9161094+07:00" endTime="2019-11-18T20:24:44.9181081+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="43bbafb6-1d32-41f3-85a0-362df8f30018" dataRowInfo="3" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Test method testPM.Test_Chuyenban.testchuyenban threw exception: 
+System.FormatException: Input string was not in a correct format.</Message>
+              <StackTrace>    at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer&amp; number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at testPM.Test_Chuyenban.testchuyenban() in C:\Users\Dell\Desktop\Dangnhap\testPM\Test_Chuyenban.cs:line 22
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+      </InnerResults>
+    </UnitTestResult>
+    <UnitTestResult executionId="f7988c37-e4dc-4b07-a4a9-1565478bf6af" testId="d126ba14-7fa7-4e78-7434-4a28ba2ec146" testName="testThemMon" computerName="DESKTOP-LTNHK23" duration="00:00:00.1167768" startTime="2019-11-18T20:24:44.9311032+07:00" endTime="2019-11-18T20:24:45.0591039+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f7988c37-e4dc-4b07-a4a9-1565478bf6af" resultType="DataDrivenTest">
+      <Counters error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="6" completed="0" inProgress="0" pending="0" />
+      <InnerResults>
+        <UnitTestResult executionId="bf009ef8-0926-48c0-a459-a23c8b2d9089" parentExecutionId="f7988c37-e4dc-4b07-a4a9-1565478bf6af" testId="d126ba14-7fa7-4e78-7434-4a28ba2ec146" testName="testThemMon" computerName="DESKTOP-LTNHK23" duration="00:00:00.0012217" startTime="2019-11-18T20:24:45.0440165+07:00" endTime="2019-11-18T20:24:45.0451144+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f7988c37-e4dc-4b07-a4a9-1565478bf6af" dataRowInfo="0" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="60e323ca-c010-4fd1-b003-8eccab83653a" parentExecutionId="f7988c37-e4dc-4b07-a4a9-1565478bf6af" testId="d126ba14-7fa7-4e78-7434-4a28ba2ec146" testName="testThemMon" computerName="DESKTOP-LTNHK23" duration="00:00:00.0055040" startTime="2019-11-18T20:24:45.0451144+07:00" endTime="2019-11-18T20:24:45.0506494+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f7988c37-e4dc-4b07-a4a9-1565478bf6af" dataRowInfo="1" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="1550e004-b823-4cc4-b7ce-3eb249bfa060" parentExecutionId="f7988c37-e4dc-4b07-a4a9-1565478bf6af" testId="d126ba14-7fa7-4e78-7434-4a28ba2ec146" testName="testThemMon" computerName="DESKTOP-LTNHK23" duration="00:00:00.0000293" startTime="2019-11-18T20:24:45.0506494+07:00" endTime="2019-11-18T20:24:45.0506494+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f7988c37-e4dc-4b07-a4a9-1565478bf6af" dataRowInfo="2" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="ea7f689b-7731-4d84-9318-8151ff54118c" parentExecutionId="f7988c37-e4dc-4b07-a4a9-1565478bf6af" testId="d126ba14-7fa7-4e78-7434-4a28ba2ec146" testName="testThemMon" computerName="DESKTOP-LTNHK23" duration="00:00:00.0000126" startTime="2019-11-18T20:24:45.0506494+07:00" endTime="2019-11-18T20:24:45.0506494+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f7988c37-e4dc-4b07-a4a9-1565478bf6af" dataRowInfo="3" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="092fd1d2-b4e4-45f9-88a7-295a671b506f" parentExecutionId="f7988c37-e4dc-4b07-a4a9-1565478bf6af" testId="d126ba14-7fa7-4e78-7434-4a28ba2ec146" testName="testThemMon" computerName="DESKTOP-LTNHK23" duration="00:00:00.0000126" startTime="2019-11-18T20:24:45.0506494+07:00" endTime="2019-11-18T20:24:45.0506494+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f7988c37-e4dc-4b07-a4a9-1565478bf6af" dataRowInfo="4" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="0d867e4e-1223-452d-bfc7-828b65181ec6" parentExecutionId="f7988c37-e4dc-4b07-a4a9-1565478bf6af" testId="d126ba14-7fa7-4e78-7434-4a28ba2ec146" testName="testThemMon" computerName="DESKTOP-LTNHK23" duration="00:00:00.0000116" startTime="2019-11-18T20:24:45.0506494+07:00" endTime="2019-11-18T20:24:45.0506494+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f7988c37-e4dc-4b07-a4a9-1565478bf6af" dataRowInfo="5" resultType="DataDrivenDataRow" />
+      </InnerResults>
+    </UnitTestResult>
+    <UnitTestResult executionId="92968374-317a-407d-a9ef-fabfb9cdf23a" testId="e7975907-abd7-c724-e54c-c8600f564d67" testName="TestCNLogin" computerName="DESKTOP-LTNHK23" duration="00:00:00.1318722" startTime="2019-11-18T20:24:45.0651098+07:00" endTime="2019-11-18T20:24:45.2253228+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="92968374-317a-407d-a9ef-fabfb9cdf23a" resultType="DataDrivenTest">
+      <Counters error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="14" completed="0" inProgress="0" pending="0" />
+      <InnerResults>
+        <UnitTestResult executionId="400430ae-8288-4d6a-900a-df3d99ee0f6b" parentExecutionId="92968374-317a-407d-a9ef-fabfb9cdf23a" testId="e7975907-abd7-c724-e54c-c8600f564d67" testName="TestCNLogin" computerName="DESKTOP-LTNHK23" duration="00:00:00.0052041" startTime="2019-11-18T20:24:45.1734980+07:00" endTime="2019-11-18T20:24:45.1785017+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="92968374-317a-407d-a9ef-fabfb9cdf23a" dataRowInfo="0" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="f30f57b1-108c-425a-84b9-3ec303afa11c" parentExecutionId="92968374-317a-407d-a9ef-fabfb9cdf23a" testId="e7975907-abd7-c724-e54c-c8600f564d67" testName="TestCNLogin" computerName="DESKTOP-LTNHK23" duration="00:00:00.0013742" startTime="2019-11-18T20:24:45.1785017+07:00" endTime="2019-11-18T20:24:45.1795369+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="92968374-317a-407d-a9ef-fabfb9cdf23a" dataRowInfo="1" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="7a71c0dc-5ae3-4b9e-911a-702b0527162b" parentExecutionId="92968374-317a-407d-a9ef-fabfb9cdf23a" testId="e7975907-abd7-c724-e54c-c8600f564d67" testName="TestCNLogin" computerName="DESKTOP-LTNHK23" duration="00:00:00.0013565" startTime="2019-11-18T20:24:45.1795369+07:00" endTime="2019-11-18T20:24:45.1815117+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="92968374-317a-407d-a9ef-fabfb9cdf23a" dataRowInfo="2" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="41fe41e8-456d-4b76-94ff-e4de9b12fcf9" parentExecutionId="92968374-317a-407d-a9ef-fabfb9cdf23a" testId="e7975907-abd7-c724-e54c-c8600f564d67" testName="TestCNLogin" computerName="DESKTOP-LTNHK23" duration="00:00:00.0012604" startTime="2019-11-18T20:24:45.1815117+07:00" endTime="2019-11-18T20:24:45.1825243+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="92968374-317a-407d-a9ef-fabfb9cdf23a" dataRowInfo="3" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="92581f69-0226-4225-946b-ef1de47471a7" parentExecutionId="92968374-317a-407d-a9ef-fabfb9cdf23a" testId="e7975907-abd7-c724-e54c-c8600f564d67" testName="TestCNLogin" computerName="DESKTOP-LTNHK23" duration="00:00:00.0011357" startTime="2019-11-18T20:24:45.1825243+07:00" endTime="2019-11-18T20:24:45.1835241+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="92968374-317a-407d-a9ef-fabfb9cdf23a" dataRowInfo="4" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="2c40e20a-dbee-4184-b85c-c86ee30a4479" parentExecutionId="92968374-317a-407d-a9ef-fabfb9cdf23a" testId="e7975907-abd7-c724-e54c-c8600f564d67" testName="TestCNLogin" computerName="DESKTOP-LTNHK23" duration="00:00:00.0011026" startTime="2019-11-18T20:24:45.1835241+07:00" endTime="2019-11-18T20:24:45.1845106+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="92968374-317a-407d-a9ef-fabfb9cdf23a" dataRowInfo="5" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="0ac0a1c3-cbee-4ef8-9006-fea9edfee2ee" parentExecutionId="92968374-317a-407d-a9ef-fabfb9cdf23a" testId="e7975907-abd7-c724-e54c-c8600f564d67" testName="TestCNLogin" computerName="DESKTOP-LTNHK23" duration="00:00:00.0012398" startTime="2019-11-18T20:24:45.1845106+07:00" endTime="2019-11-18T20:24:45.1859659+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="92968374-317a-407d-a9ef-fabfb9cdf23a" dataRowInfo="6" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="1287ffb1-467d-443e-9772-02288adcd10e" parentExecutionId="92968374-317a-407d-a9ef-fabfb9cdf23a" testId="e7975907-abd7-c724-e54c-c8600f564d67" testName="TestCNLogin" computerName="DESKTOP-LTNHK23" duration="00:00:00.0013275" startTime="2019-11-18T20:24:45.1859659+07:00" endTime="2019-11-18T20:24:45.1869683+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="92968374-317a-407d-a9ef-fabfb9cdf23a" dataRowInfo="7" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="b9baa733-37c7-4236-85b0-c8d610720835" parentExecutionId="92968374-317a-407d-a9ef-fabfb9cdf23a" testId="e7975907-abd7-c724-e54c-c8600f564d67" testName="TestCNLogin" computerName="DESKTOP-LTNHK23" duration="00:00:00.0018420" startTime="2019-11-18T20:24:45.1869683+07:00" endTime="2019-11-18T20:24:45.1893251+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="92968374-317a-407d-a9ef-fabfb9cdf23a" dataRowInfo="8" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="1c3d28fa-fd37-4794-8907-2722ae31f60d" parentExecutionId="92968374-317a-407d-a9ef-fabfb9cdf23a" testId="e7975907-abd7-c724-e54c-c8600f564d67" testName="TestCNLogin" computerName="DESKTOP-LTNHK23" duration="00:00:00.0014872" startTime="2019-11-18T20:24:45.1893251+07:00" endTime="2019-11-18T20:24:45.1913262+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="92968374-317a-407d-a9ef-fabfb9cdf23a" dataRowInfo="9" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="b50e3516-cada-4f40-be79-c076df83b1b1" parentExecutionId="92968374-317a-407d-a9ef-fabfb9cdf23a" testId="e7975907-abd7-c724-e54c-c8600f564d67" testName="TestCNLogin" computerName="DESKTOP-LTNHK23" duration="00:00:00.0012973" startTime="2019-11-18T20:24:45.1913262+07:00" endTime="2019-11-18T20:24:45.1923264+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="92968374-317a-407d-a9ef-fabfb9cdf23a" dataRowInfo="10" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="acc8358a-c338-41b0-965c-376a6669e1a8" parentExecutionId="92968374-317a-407d-a9ef-fabfb9cdf23a" testId="e7975907-abd7-c724-e54c-c8600f564d67" testName="TestCNLogin" computerName="DESKTOP-LTNHK23" duration="00:00:00.0014330" startTime="2019-11-18T20:24:45.1923264+07:00" endTime="2019-11-18T20:24:45.1933259+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="92968374-317a-407d-a9ef-fabfb9cdf23a" dataRowInfo="11" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="21e46a86-3ae4-41ba-a3c1-843844b450fa" parentExecutionId="92968374-317a-407d-a9ef-fabfb9cdf23a" testId="e7975907-abd7-c724-e54c-c8600f564d67" testName="TestCNLogin" computerName="DESKTOP-LTNHK23" duration="00:00:00.0012469" startTime="2019-11-18T20:24:45.1933259+07:00" endTime="2019-11-18T20:24:45.1953338+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="92968374-317a-407d-a9ef-fabfb9cdf23a" dataRowInfo="12" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="dc37b2a0-cc25-4fcb-ba15-d81bde164c93" parentExecutionId="92968374-317a-407d-a9ef-fabfb9cdf23a" testId="e7975907-abd7-c724-e54c-c8600f564d67" testName="TestCNLogin" computerName="DESKTOP-LTNHK23" duration="00:00:00.0013529" startTime="2019-11-18T20:24:45.1953338+07:00" endTime="2019-11-18T20:24:45.1963179+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="92968374-317a-407d-a9ef-fabfb9cdf23a" dataRowInfo="13" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="b16e60b1-9e27-490a-bd20-afd6f97ac83d" parentExecutionId="92968374-317a-407d-a9ef-fabfb9cdf23a" testId="e7975907-abd7-c724-e54c-c8600f564d67" testName="TestCNLogin" computerName="DESKTOP-LTNHK23" duration="00:00:00.0025892" startTime="2019-11-18T20:24:45.1963179+07:00" endTime="2019-11-18T20:24:45.1993268+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="92968374-317a-407d-a9ef-fabfb9cdf23a" dataRowInfo="14" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Test method testPM.TestLogin.TestCNLogin threw exception: 
+System.InvalidOperationException: số kí tự quá lớn</Message>
+              <StackTrace>    at testPM.TestLogin.TestCNLogin() in C:\Users\Dell\Desktop\Dangnhap\testPM\Test_Login.cs:line 27
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+      </InnerResults>
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -24,7 +24,7 @@ namespace testPM
             int id = int.Parse(TestContext.DataRow[3].ToString());
             bool expected = bool.Parse(TestContext.DataRow[4].ToString());
             Admin ad = new Admin();
-            bool actual = ad.sua(ten, loai, gia, id);
+            bool actual = ad.sua(ten,loai,gia,id);
             Assert.AreEqual(expected,actual);
         }
     }

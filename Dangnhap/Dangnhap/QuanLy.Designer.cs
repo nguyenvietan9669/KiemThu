@@ -44,6 +44,7 @@
             this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.pnTroGiup = new System.Windows.Forms.Panel();
+            this.lblGiamGia = new System.Windows.Forms.Label();
             this.txttotalPrice = new System.Windows.Forms.TextBox();
             this.cbChuyenBan = new System.Windows.Forms.ComboBox();
             this.nmDGiamGia = new System.Windows.Forms.NumericUpDown();
@@ -55,7 +56,6 @@
             this.cbMonAn = new System.Windows.Forms.ComboBox();
             this.cbDanhMuc = new System.Windows.Forms.ComboBox();
             this.flPDsBan = new System.Windows.Forms.FlowLayoutPanel();
-            this.lblGiamGia = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.pnTroGiup.SuspendLayout();
@@ -197,6 +197,16 @@
             this.pnTroGiup.Size = new System.Drawing.Size(473, 76);
             this.pnTroGiup.TabIndex = 3;
             // 
+            // lblGiamGia
+            // 
+            this.lblGiamGia.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblGiamGia.Location = new System.Drawing.Point(128, 6);
+            this.lblGiamGia.Name = "lblGiamGia";
+            this.lblGiamGia.Size = new System.Drawing.Size(100, 33);
+            this.lblGiamGia.TabIndex = 6;
+            this.lblGiamGia.Text = "Giảm giá";
+            this.lblGiamGia.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // txttotalPrice
             // 
             this.txttotalPrice.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -314,16 +324,6 @@
             this.flPDsBan.Name = "flPDsBan";
             this.flPDsBan.Size = new System.Drawing.Size(732, 687);
             this.flPDsBan.TabIndex = 5;
-            // 
-            // lblGiamGia
-            // 
-            this.lblGiamGia.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGiamGia.Location = new System.Drawing.Point(128, 6);
-            this.lblGiamGia.Name = "lblGiamGia";
-            this.lblGiamGia.Size = new System.Drawing.Size(100, 33);
-            this.lblGiamGia.TabIndex = 6;
-            this.lblGiamGia.Text = "Giảm giá";
-            this.lblGiamGia.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // QuanLy
             // 

@@ -162,7 +162,7 @@ namespace Dangnhap
             int idBill = BillDAO.Instance.GetUnBillByTableID(table.ID);
             int foodID=(cbMonAn.SelectedItem as Food).ID;
             int Count = (int)nmBSoMon.Value;
-            if (Count < 0)
+            if (Count <= 0)
             {
                 MessageBox.Show("Số món không hợp lệ");
                 return;

@@ -143,9 +143,24 @@ namespace Dangnhap
             string name = txtTenMon.Text;
             int categoryID = (cbDanhMuc.SelectedItem as Category).ID;
             float price = (float)nmBGia.Value;
+            if (name.Length <= 0)
+            {
+                MessageBox.Show("Chưa điền tên món ăn, không thể thêm !!");
+                return;
+            }
+            if (price > 10000000000000 || price <= 0)
+            {
+                MessageBox.Show("giá tiền không hợp lệ,không thể thêm !!");
+                return;
+            }
+            if (check() == false)
+            {
+                MessageBox.Show("Món ăn đã tồn tại ");
+                return;
+            }
             if (FoodDAO.Instance.InsertFood(name, categoryID, price))
             {
-                MessageBox.Show("Thêm món thành công");
+                MessageBox.Show("Thêm món " + name + " với giá " + price.ToString() + "(Đ) thành công ");
                 LoadListFood();
                 if (insertFood != null)
                 {
@@ -185,6 +200,11 @@ namespace Dangnhap
             int categoryID = (cbDanhMuc.SelectedItem as Category).ID;
             float price = (float)nmBGia.Value;
             int id = Convert.ToInt32(txtID.Text);
+            if (checkUpdate() == false)
+            {
+                MessageBox.Show("Tên món đã tồn tại, Mời nhập tên khác");
+                return;
+            }
             if (FoodDAO.Instance.UpdateFood(id,name, categoryID, price))
             {
                 MessageBox.Show("Sửa món thành công");
@@ -226,8 +246,9 @@ namespace Dangnhap
             int id = Convert.ToInt32(txtID.Text);
             if (FoodDAO.Instance.DeleteFood(id))
             {
-                MessageBox.Show("Xóa món thành công");
+                MessageBox.Show("Bạn có chắc chắn muốn xóa món này");
                 LoadListFood();
+                MessageBox.Show("Đã xóa");
                 if (deleteFood != null)
                 {
                     deleteFood(this, new EventArgs());
@@ -385,6 +406,25 @@ namespace Dangnhap
             {
                 MessageBox.Show("Có lỗi khi Sửa");
             }
+        }
+        private bool check()
+        {
+            foodlist.DataSource = FoodDAO.Instance.SearchFoodByNametrue(txtTenMon.Text);
+            if (dtgvMonAn.RowCount > 0)
+            {
+                return false;
+            }
+            return true;
+        }
+        private bool checkUpdate()
+        {
+            foodlist.DataSource = FoodDAO.Instance.SearchFoodByNametrue(txtTenMon.Text);
+            if (dtgvMonAn.RowCount > 0)
+            {
+                LoadListFood();
+                return false;
+            }
+            return true;
         }
      
     }
