@@ -341,6 +341,7 @@ namespace Dangnhap
             }
             if (AccountDAO.Instance.DeleteAccount(userName))
             {
+                MessageBox.Show("Bạn có thực sự muốn xóa");
                 MessageBox.Show("Xóa thành công");
             }
             else
@@ -365,6 +366,19 @@ namespace Dangnhap
             string userName = txtTenTK.Text;
             string displayName = txtTenHT.Text;
             int type = (int)nmBLTK.Value;
+            if (userName.Contains("!") || userName.Contains("@") || userName.Contains("#") || userName.Contains("$")
+                || userName.Contains("%") || userName.Contains("^") || userName.Contains("&") || userName.Contains("*")
+                || userName.Contains("(") || userName.Contains(")") || userName.Contains("_") || userName.Contains("+")
+                || userName.Contains("-") || userName.Contains("+"))
+            {
+                MessageBox.Show("Tên tài khoản có ký tự đặc biệt không thể thêm!!");
+                return;
+            }
+            if (userName.Contains(" "))
+            {
+                MessageBox.Show("Tên tài khoản có khoảng trắng không thể thêm !!");
+                return;
+            }
             AddAccount(userName, displayName, type);
         }
 
@@ -377,6 +391,19 @@ namespace Dangnhap
         private void btnSuaT_Click(object sender, EventArgs e)
         {
             string userName = txtTenTK.Text;
+            if (userName.Contains("!") || userName.Contains("@") || userName.Contains("#") || userName.Contains("$")
+                || userName.Contains("%") || userName.Contains("^") || userName.Contains("&") || userName.Contains("*")
+                || userName.Contains("(") || userName.Contains(")") || userName.Contains("_") || userName.Contains("+")
+                || userName.Contains("-") || userName.Contains("+"))
+            {
+                MessageBox.Show("trong tên tài khoản có ký tự đặc biệt,không thể sửa");
+                return;
+            }
+            if (userName.Contains(" "))
+            {
+                MessageBox.Show("trong tên tài khoản có khoảng trống,không thể sửa");
+                return;
+            }
             string displayName = txtTenHT.Text;
             int type = (int)nmBLTK.Value;
             EditAccount(userName, displayName, type);
