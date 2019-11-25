@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Admin));
             this.tabAcc = new System.Windows.Forms.TabPage();
             this.panel24 = new System.Windows.Forms.Panel();
             this.btnXemTk = new System.Windows.Forms.Button();
@@ -107,6 +108,11 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.dtgvBill = new System.Windows.Forms.DataGridView();
             this.tabAdmin = new System.Windows.Forms.TabControl();
+            this.btn1 = new System.Windows.Forms.Button();
+            this.btn2 = new System.Windows.Forms.Button();
+            this.btn3 = new System.Windows.Forms.Button();
+            this.btn4 = new System.Windows.Forms.Button();
+            this.btn5 = new System.Windows.Forms.Button();
             this.tabAcc.SuspendLayout();
             this.panel24.SuspendLayout();
             this.panel27.SuspendLayout();
@@ -164,6 +170,7 @@
             // 
             // panel24
             // 
+            this.panel24.Controls.Add(this.btn5);
             this.panel24.Controls.Add(this.btnXemTk);
             this.panel24.Controls.Add(this.panel27);
             this.panel24.Controls.Add(this.panel25);
@@ -347,6 +354,7 @@
             // 
             // panel14
             // 
+            this.panel14.Controls.Add(this.btn4);
             this.panel14.Controls.Add(this.panel17);
             this.panel14.Controls.Add(this.panel18);
             this.panel14.Location = new System.Drawing.Point(668, 70);
@@ -464,6 +472,7 @@
             // 
             // panel16
             // 
+            this.panel16.Controls.Add(this.btn3);
             this.panel16.Controls.Add(this.panel21);
             this.panel16.Controls.Add(this.panel19);
             this.panel16.Controls.Add(this.panel20);
@@ -675,6 +684,7 @@
             // 
             // panel4
             // 
+            this.panel4.Controls.Add(this.btn2);
             this.panel4.Controls.Add(this.panel10);
             this.panel4.Controls.Add(this.panel9);
             this.panel4.Controls.Add(this.panel5);
@@ -859,6 +869,7 @@
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.btn1);
             this.panel1.Controls.Add(this.dtgvBill);
             this.panel1.Location = new System.Drawing.Point(6, 46);
             this.panel1.Name = "panel1";
@@ -888,6 +899,56 @@
             this.tabAdmin.Size = new System.Drawing.Size(1161, 713);
             this.tabAdmin.TabIndex = 0;
             // 
+            // btn1
+            // 
+            this.btn1.Image = global::Dangnhap.Properties.Resources.iconfinder_Exit_to_app_5416287;
+            this.btn1.Location = new System.Drawing.Point(1069, 570);
+            this.btn1.Name = "btn1";
+            this.btn1.Size = new System.Drawing.Size(69, 55);
+            this.btn1.TabIndex = 1;
+            this.btn1.UseVisualStyleBackColor = true;
+            this.btn1.Click += new System.EventHandler(this.btn1_Click);
+            // 
+            // btn2
+            // 
+            this.btn2.Image = global::Dangnhap.Properties.Resources.iconfinder_Exit_to_app_5416287;
+            this.btn2.Location = new System.Drawing.Point(410, 546);
+            this.btn2.Name = "btn2";
+            this.btn2.Size = new System.Drawing.Size(69, 55);
+            this.btn2.TabIndex = 9;
+            this.btn2.UseVisualStyleBackColor = true;
+            this.btn2.Click += new System.EventHandler(this.btn2_Click);
+            // 
+            // btn3
+            // 
+            this.btn3.Image = global::Dangnhap.Properties.Resources.iconfinder_Exit_to_app_5416287;
+            this.btn3.Location = new System.Drawing.Point(410, 549);
+            this.btn3.Name = "btn3";
+            this.btn3.Size = new System.Drawing.Size(69, 55);
+            this.btn3.TabIndex = 8;
+            this.btn3.UseVisualStyleBackColor = true;
+            this.btn3.Click += new System.EventHandler(this.btn3_Click);
+            // 
+            // btn4
+            // 
+            this.btn4.Image = global::Dangnhap.Properties.Resources.iconfinder_Exit_to_app_5416287;
+            this.btn4.Location = new System.Drawing.Point(413, 549);
+            this.btn4.Name = "btn4";
+            this.btn4.Size = new System.Drawing.Size(69, 55);
+            this.btn4.TabIndex = 7;
+            this.btn4.UseVisualStyleBackColor = true;
+            this.btn4.Click += new System.EventHandler(this.btn4_Click);
+            // 
+            // btn5
+            // 
+            this.btn5.Image = global::Dangnhap.Properties.Resources.iconfinder_Exit_to_app_5416287;
+            this.btn5.Location = new System.Drawing.Point(410, 546);
+            this.btn5.Name = "btn5";
+            this.btn5.Size = new System.Drawing.Size(69, 55);
+            this.btn5.TabIndex = 9;
+            this.btn5.UseVisualStyleBackColor = true;
+            this.btn5.Click += new System.EventHandler(this.btn5_Click);
+            // 
             // Admin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -896,9 +957,9 @@
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ClientSize = new System.Drawing.Size(1185, 737);
             this.Controls.Add(this.tabAdmin);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Admin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Admin";
             this.tabAcc.ResumeLayout(false);
             this.panel24.ResumeLayout(false);
             this.panel27.ResumeLayout(false);
@@ -1034,6 +1095,11 @@
         private System.Windows.Forms.NumericUpDown nmBLTK;
         private System.Windows.Forms.TextBox txtstatus;
         private System.Windows.Forms.ComboBox cbDanhMuc;
+        private System.Windows.Forms.Button btn1;
+        private System.Windows.Forms.Button btn5;
+        private System.Windows.Forms.Button btn4;
+        private System.Windows.Forms.Button btn3;
+        private System.Windows.Forms.Button btn2;
 
     }
 }

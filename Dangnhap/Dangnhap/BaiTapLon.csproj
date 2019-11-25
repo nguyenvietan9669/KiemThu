@@ -107,6 +107,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="QuanLy.resx">
       <DependentUpon>QuanLy.cs</DependentUpon>
@@ -124,7 +125,33 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\iconfinder_exit_2639810.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_Exit_to_app_5416287.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_account-circle_326497.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_account-circle_326497 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_user_216498.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_user_216498 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_user_216498 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_user_216498 %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_icons_password_1564520.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

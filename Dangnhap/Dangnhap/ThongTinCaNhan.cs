@@ -46,6 +46,11 @@ namespace Dangnhap
                 MessageBox.Show("Không thể cập nhật,có ký tự đặc biệt trong mật khẩu");
                 return;
             }
+            if (newpass.Length > 100)
+            {
+                MessageBox.Show("mật khẩu quá dài không thể thay đổi");
+                return;
+            }
             if (newpass.Contains(" "))
             {
                 MessageBox.Show(" không thể cập nhật,có khoảng trắng trong mật khẩu");
@@ -87,9 +92,11 @@ namespace Dangnhap
         private void btnThoat_Click(object sender, EventArgs e)
         {
             this.Close();
-            FDangNhap dn = new FDangNhap();
+            this.Hide();
+            QuanLy ql = new QuanLy(loginAccount);
+            ql.ShowDialog();
+            this.Show();
         }
-
      
     }
 }

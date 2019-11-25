@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ThongTinCaNhan));
             this.panel1 = new System.Windows.Forms.Panel();
             this.txtTen = new System.Windows.Forms.TextBox();
             this.lblTen = new System.Windows.Forms.Label();
@@ -135,7 +136,7 @@
             // btncapnhat
             // 
             this.btncapnhat.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btncapnhat.Location = new System.Drawing.Point(255, 437);
+            this.btncapnhat.Location = new System.Drawing.Point(254, 461);
             this.btncapnhat.Name = "btncapnhat";
             this.btncapnhat.Size = new System.Drawing.Size(146, 47);
             this.btncapnhat.TabIndex = 4;
@@ -146,7 +147,7 @@
             // btnThoat
             // 
             this.btnThoat.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnThoat.Location = new System.Drawing.Point(437, 437);
+            this.btnThoat.Location = new System.Drawing.Point(437, 461);
             this.btnThoat.Name = "btnThoat";
             this.btnThoat.Size = new System.Drawing.Size(83, 47);
             this.btnThoat.TabIndex = 5;
@@ -212,7 +213,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(561, 509);
+            this.ClientSize = new System.Drawing.Size(561, 530);
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.btnThoat);
@@ -220,8 +221,9 @@
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
+            this.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "ThongTinCaNhan";
-            this.Text = "Thông Tin Cá Nhân";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);

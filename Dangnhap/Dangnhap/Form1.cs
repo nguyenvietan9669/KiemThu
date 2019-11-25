@@ -91,5 +91,17 @@ namespace Dangnhap
                 return false;
             }
         }
+
+        private void radioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+            txtpass.UseSystemPasswordChar = false;
+        }
+
+        private void radioButton2_CheckedChanged(object sender, EventArgs e)
+        {
+            txtpass.UseSystemPasswordChar = true;
+        }
+
+      
     }
 }

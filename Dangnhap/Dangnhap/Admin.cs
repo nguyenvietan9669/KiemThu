@@ -143,6 +143,11 @@ namespace Dangnhap
             string name = txtTenMon.Text;
             int categoryID = (cbDanhMuc.SelectedItem as Category).ID;
             float price = (float)nmBGia.Value;
+            if (name.Length > 200)
+            {
+                MessageBox.Show("Tên món ăn quá dài không thể thêm !!");
+                return;
+            }
             if (name.Length <= 0)
             {
                 MessageBox.Show("Chưa điền tên món ăn, không thể thêm !!");
@@ -200,6 +205,11 @@ namespace Dangnhap
             int categoryID = (cbDanhMuc.SelectedItem as Category).ID;
             float price = (float)nmBGia.Value;
             int id = Convert.ToInt32(txtID.Text);
+            if (name.Length > 200)
+            {
+                MessageBox.Show("Tên món ăn quá dài không thể sửa");
+                return;
+            }
             if (checkUpdate() == false)
             {
                 MessageBox.Show("Tên món đã tồn tại, Mời nhập tên khác");
@@ -374,6 +384,11 @@ namespace Dangnhap
                 MessageBox.Show("Tên tài khoản có ký tự đặc biệt không thể thêm!!");
                 return;
             }
+            if (userName.Length > 100)
+            {
+                MessageBox.Show("Tên tài khoản quá dài không thể thêm ");
+                return;
+            }
             if (userName.Contains(" "))
             {
                 MessageBox.Show("Tên tài khoản có khoảng trắng không thể thêm !!");
@@ -397,6 +412,11 @@ namespace Dangnhap
                 || userName.Contains("-") || userName.Contains("+"))
             {
                 MessageBox.Show("trong tên tài khoản có ký tự đặc biệt,không thể sửa");
+                return;
+            }
+            if (userName.Length > 100)
+            {
+                MessageBox.Show("Tên tài khoản quá dài không thể thêm ");
                 return;
             }
             if (userName.Contains(" "))
@@ -452,6 +472,51 @@ namespace Dangnhap
                 return false;
             }
             return true;
+        }
+
+        private void btn5_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            this.Hide();
+            QuanLy ql = new QuanLy(loginAccount);
+            ql.ShowDialog();
+            this.Show();
+        }
+
+        private void btn4_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            this.Hide();
+            QuanLy ql = new QuanLy(loginAccount);
+            ql.ShowDialog();
+            this.Show();
+        }
+
+        private void btn3_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            this.Hide();
+            QuanLy ql = new QuanLy(loginAccount);
+            ql.ShowDialog();
+            this.Show();
+        }
+
+        private void btn2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            this.Hide();
+            QuanLy ql = new QuanLy(loginAccount);
+            ql.ShowDialog();
+            this.Show();
+        }
+
+        private void btn1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            this.Hide();
+            QuanLy ql = new QuanLy(loginAccount);
+            ql.ShowDialog();
+            this.Show();
         }
      
     }

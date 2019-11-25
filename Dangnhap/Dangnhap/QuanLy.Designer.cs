@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(QuanLy));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.adminToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.thôngTinCáNhânToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -307,6 +308,7 @@
             this.cbMonAn.Name = "cbMonAn";
             this.cbMonAn.Size = new System.Drawing.Size(329, 28);
             this.cbMonAn.TabIndex = 0;
+            
             // 
             // cbDanhMuc
             // 
@@ -337,11 +339,11 @@
             this.Controls.Add(this.pnTroGiup);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.menuStrip1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.MaximizeBox = false;
             this.Name = "QuanLy";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "QuanLy";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.panel2.ResumeLayout(false);
